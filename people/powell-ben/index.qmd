@@ -8,7 +8,7 @@ email: "ben.powell@york.ac.uk"
 education:
   - Ph.D., Mmath | University of Durham <br>
 description: "Statistician/data scientist/mathematician with interests in both foundations and applications."
-image: deloitte-uk-ben-powell-profile.webp
+image: bpowell_profile_pic_2323_v2.png
 page-layout: full
 listing:
   - id: pubs
