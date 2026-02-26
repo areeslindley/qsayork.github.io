@@ -1,0 +1,16 @@
+---
+title: "Kairosis: A method for dynamical probability forecast aggregation informed by Bayesian change-point detection"
+date: 2025-06-25
+author: ["Zane Hassoun", "Niall MacKay", "Ben Powell"]
+publication: "International Journal of Forecasting"
+categories: ["Statistical Methods"]
+url_source: https://www.sciencedirect.com/science/article/abs/pii/S0169207025000299
+url_preprint: 
+journ: "International journal of forecasting"
+issue: 1
+volume: 42
+page: 112-125
+year: 2025
+image: image.png
+editor: 'source'
+---

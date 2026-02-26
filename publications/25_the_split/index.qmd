@@ -1,0 +1,14 @@
+---
+title: "The Split: Analysing contest design in the Scottish Premier League"
+date: 2025-06-06
+author: ["Jess Hargreaves", "Johan Rewilak"]
+publication: "Proceedings of MathSport International 2025 Conference"
+categories: ["Football"]
+url_source: https://eprints.whiterose.ac.uk/id/eprint/229626/1/The_SPLit_MathSport.pdf
+url_preprint: 
+journ: "Proceedings of MathSport International 2025 Conference"
+page: 81-86
+year: 2025
+image: image.png
+editor: 'source'
+---

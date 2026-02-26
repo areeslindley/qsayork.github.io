@@ -1,0 +1,13 @@
+---
+title: "2025 Football Analytics Conference"
+date: '2025-12-12'
+image: image.png
+description: "Jess and Rich attended the Football Analytics Conference"
+editor: 'source'
+---
+
+## 2025 Football Analytics Conference
+
+In December 2025, Jess and Rich from the QSAY group attended the 2nd Football Analytics Conference at Oldham Athletic Football Club.  Jess served on a panel at the end of first day discussing the state of modern football analytics.  More information on the conference can be found [here](https://www.oldhamathletic.co.uk/news/2025/december/12/football-/). 
+
+![](image.png "2025 FAC")

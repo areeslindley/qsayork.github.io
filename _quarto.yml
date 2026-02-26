@@ -15,7 +15,7 @@ website:
     search: true
     title: false
     logo: images/qsay_logo.png
-    #background: "#F0F0F0"
+    #background: "#1a9988"
     logo-alt: "QSAY"
     right:
       - href: index.qmd

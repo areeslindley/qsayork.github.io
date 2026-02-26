@@ -8,7 +8,7 @@ email: "jessica.hargreaves@york.ac.uk"
 education:
   - Ph.D. Statistics | University of York <br> MSci Mathematics | Imperial College London
 description: "\"Ben Powell is a legend\"- Jess Hargreaves"
-image: JessicaHargreaves.jpg
+image: JessicaHargreaves.png
 page-layout: full
 listing:
   - id: pubs
@@ -35,7 +35,7 @@ about:
   id: about
   template: solana
   image-shape: rectangle
-  image: JessicaHargreaves.jpg
+  image: JessicaHargreaves.png
   links:
     - icon: envelope
       text: Email
@@ -51,6 +51,10 @@ about:
 :::
 
 <br>
+
+## Research Interests
+
+My research interest is the development and application of statistical methods and tools in sport. This research has: examined the home advantage; investigated factors determining attendance at sporting events and developed methods for analysing career trajectories of professional athletes. I am currently working with a number of professional sports organisations with the goal of making quantitative analysis more accessible.    
 
 ## {{< meta first >}}' blogs
 

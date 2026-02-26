@@ -1,0 +1,16 @@
+---
+title: "Generalizing the Elo rating system for multiplayer games and races: why endurance is better than speed"
+date: 2023-09-28
+author: ["Ben Powell"]
+publication: "Journal of Quantitative Analysis in Sports"
+categories: ["Motor Racing","Statistical Methodology"]
+url_source: https://eprints.whiterose.ac.uk/id/eprint/200471/1/Generalizing_Elo_deGruyter.pdf
+url_preprint: 
+journ: "Journal of Quantitative Analysis in Sports"
+issue: 3
+volume: 19
+page: 223-243
+year: 2023
+image: image.png
+editor: 'source'
+---

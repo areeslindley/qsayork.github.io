@@ -2,11 +2,11 @@
 title: &TITLE Ben Powell
 last: Powell
 first: Ben
-subtitle: "QSAYork team member"
+subtitle: "Lecturer in Statistics"
 people_group: "academic"
 email: "ben.powell@york.ac.uk"
 education:
-  - Ph.D., Mmath | University of Durham <br>
+  - Ph.D | University of Durham <br> MMath | University of Durham
 description: "Statistician/data scientist/mathematician with interests in both foundations and applications."
 image: bpowell_profile_pic_2323_v2.png
 page-layout: full
@@ -35,7 +35,7 @@ about:
   id: about
   template: solana
   image-shape: rectangle
-  image: deloitte-uk-ben-powell-profile.webp
+  image: bpowell_profile_pic_2323_v2.png
   links:
     - icon: envelope
       text: Email
@@ -51,6 +51,10 @@ about:
 :::
 
 <br>
+
+## Research Interests
+
+My research involves the identification and quantification of patterns in past data that allow us to predict future data. The general strategy is to work with domain experts to solve a problem that interests them. We publish the findings we make and the tools we develop along the way so that other people can use them to solve their own problems.   
 
 ## {{< meta first >}}'s blogs
 

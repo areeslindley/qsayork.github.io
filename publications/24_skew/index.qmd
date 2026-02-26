@@ -1,0 +1,16 @@
+---
+title: "Skew-adjusted extremized-mean: A simple method for identifying and learning from contrarian minorities in groups of forecasters"
+date: 2024-06-11
+author: ["Ben Powell", "Ville A Satopää", "Niall MacKay", "Philip E Tetlock"]
+publication: "Decision"
+categories: ["Statistical Methodolgy"]
+url_source: https://eprints.whiterose.ac.uk/id/eprint/188361/1/skew_adjusted_extremized_mean_v5_cleaned_of_comments.pdf
+url_preprint: 
+journ: "Decision"
+issue: 1
+volume: 11
+page: 173-193
+year: 2024
+image: image.png
+editor: 'source'
+---

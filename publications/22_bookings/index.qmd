@@ -1,0 +1,14 @@
+---
+title: "Modelling bookings in association football"
+date: 2022-07-12
+author: [ "Jess Hargreaves" , "Ben Powell"]
+publication: "Proceedings of MathSport International 2022 Conference"
+categories: ["Football"]
+url_source: https://eprints.whiterose.ac.uk/id/eprint/229624/
+url_preprint: 
+journ: "Proceedings of MathSport International 2022 Conference"
+page: 34-44
+year: 2022
+image: image_1.png
+editor: 'source'
+---

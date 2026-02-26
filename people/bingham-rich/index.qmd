@@ -2,13 +2,13 @@
 title: &TITLE Rich Bingham
 last: Bingham
 first: Rich
-subtitle: "Lecturer"
+subtitle: "Lecturer in Mathematics & Biology"
 people_group: "academic"
 email: "your@email.com"
 education:
-  - Start | End <br> Test | Test2  <br> E in GCSE German <br> Governor of Connacht 
+  - PhD Theoretical Biophysics | University of Leeds <br> Mphys  Theoretical Physics | University of Leeds  
 description: "This is not used in this template"
-image: SirRichardBingham.jpg
+image: richard-1-510x655.jpg
 page-layout: full
 listing:
   id: pubs
@@ -26,7 +26,7 @@ about:
   id: about
   template: solana
   image-shape: rectangle
-  image: SirRichardBingham.jpg
+  image: richard-1-510x655.jpg
   links:
     - icon: envelope
       text: Email
@@ -44,13 +44,16 @@ editor: 'source'
 
 <br>
 
+## Research Interests
+
+I am interested in quantitative analysis of all kinds of sports, with a focus on questions that can provide insight to competitors.   I enjoy working on big data sets, trying to extract interesting arguments.    
+
 ## {{< meta first >}}' blogs
 
 ::: {#blogs}
 :::
 
 <br>
-
 
 ## {{< meta first >}}'s Group Publications
 
