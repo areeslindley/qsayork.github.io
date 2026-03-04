@@ -1,0 +1,60 @@
+---
+title: &TITLE Tara Broughton
+last: Broughton
+first: Tara
+subtitle: "EPSRC PhD Student"
+people_group: "phdstudent"
+email: "your@email.com"
+education:
+  - MMath in Mathematics | University of York 
+description: "This is not used in this template"
+image: unnamed.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: solana
+  image-shape: rectangle
+  image: unnamed.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:your@email.com
+editor: 'source'
+---
+
+<hr>
+
+::: {#about}
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## Research Interests
+
+I am interested in determining the impact of an event and evaluating its significance, as well as investigating how much data is required to draw these conclusions. I have been a football fan since growing up, so I enjoy applying these methods to football data.
+
+## {{< meta first >}}' blogs
+::: {#blogs}
+:::
+
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

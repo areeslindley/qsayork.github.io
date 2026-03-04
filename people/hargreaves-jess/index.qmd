@@ -54,7 +54,7 @@ about:
 
 ## Research Interests
 
-My research interest is the development and application of statistical methods and tools in sport. This research has: examined the home advantage; investigated factors determining attendance at sporting events and developed methods for analysing career trajectories of professional athletes. I am currently working with a number of professional sports organisations with the goal of making quantitative analysis more accessible.    
+My research interest is the development and application of statistical methods and tools in sport. This research has: examined the home advantage; investigated factors determining attendance at sporting events and developed methods for analysing career trajectories of professional athletes. I am currently working with a number of professional sports organisations with the goal of making quantitative analysis more accessible.
 
 ## {{< meta first >}}' blogs
 
