@@ -14,7 +14,9 @@
       "/people/bingham-rich/index.html",
       "/people/hargreaves-jess/index.html",
       "/people/powell-ben/index.html",
-      "/people/broughton-tara/index.html"
+      "/people/broughton-tara/index.html",
+      "/people/rees_lindley-alun/index.html",
+      "/people/stanley-rob/index.html"
     ]
   },
   {
@@ -56,6 +58,14 @@
   },
   {
     "listing": "/people/broughton-tara/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/stanley-rob/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/rees_lindley-alun/index.html",
     "items": []
   }
 ]

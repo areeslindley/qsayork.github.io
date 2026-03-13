@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="This is not used in this template">
 
-<title>QSAY - Meet the QSAY Group</title>
+<title>QSAY - Robert Stanley</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/qsay_logo_q.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/qsay_logo_q.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,104 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-academic .list');
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-last","listing-first","listing-subtitle","listing-people_group","listing-email","listing-education","listing-description","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-academic'] = new List('listing-academic', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-phdstudent .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-last","listing-first","listing-subtitle","listing-people_group","listing-email","listing-education","listing-description","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-phdstudent'] = new List('listing-phdstudent', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-undergrad .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-undergrad'] = new List('listing-undergrad', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-external .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-affiliation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-last","listing-first","listing-subtitle","listing-people_group","listing-email","listing-education","listing-description","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-external'] = new List('listing-external', options);
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -180,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -190,8 +106,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/qsay_logo.png" alt="QSAY" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/qsay_logo.png" alt="QSAY" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -201,23 +117,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../people/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../people/index.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html" rel="" target="">
+    <a class="nav-link" href="../../posts/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html" rel="" target="">
+    <a class="nav-link" href="../../publications/index.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html" rel="" target="">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -240,182 +156,83 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#academic-staff" id="toc-academic-staff" class="nav-link active" data-scroll-target="#academic-staff">Academic Staff</a></li>
-  <li><a href="#phd-students" id="toc-phd-students" class="nav-link" data-scroll-target="#phd-students">PhD Students</a></li>
-  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
-  <li><a href="#affiliates" id="toc-affiliates" class="nav-link" data-scroll-target="#affiliates">Affiliates</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#background-research-interests" id="toc-background-research-interests" class="nav-link" data-scroll-target="#background-research-interests">Background &amp; Research Interests</a></li>
+  <li><a href="#meta-first-blogs" id="toc-meta-first-blogs" class="nav-link" data-scroll-target="#meta-first-blogs">Robert’ blogs</a></li>
+  <li><a href="#meta-first-s-group-publications" id="toc-meta-first-s-group-publications" class="nav-link" data-scroll-target="#meta-first-s-group-publications">Robert’s Group Publications</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+
+<hr>
+<div class="quarto-about-solana column-page-left">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Meet the QSAY Group</h1>
+<h1 class="title">Robert Stanley</h1>
+<p class="subtitle lead">Performance Consultant/Coach Developer</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div>
+  <div class="description">
+    This is not used in this template
   </div>
-  
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header> <div class="about-links">
+  <a href="mailto:your@email.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+      <div class="about-contents"><div id="about">
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>PhD: Coaching and Performance Analysis <br> MSc Exercise and Nutrition Science <br> BA: Politics and International Relations</p>
+</section>
+</div></div>
+    </div>
+    <img src="1738146852906.jpg" class="about-image
+  rectangle " style="width: 15em;">
+  </div>
+</div>
 
-</header>
+<p><br></p>
+<section id="background-research-interests" class="level2">
+<h2 data-anchor-id="background-research-interests">Background &amp; Research Interests</h2>
+<p>Rob has a long history in sports analytics and performance coaching, including;</p>
+<p>Performance Scientist, Japan Cycling Federation. Men’s Track Endurance Coach, USA Cycling. Performance Consultant/Coach Developer, Rapid Training/ Rapid Honda. Committee Member, Expertise and Skill Acquisition Network.</p>
+<p>Rob’s research interests include;</p>
+<p>Developing understanding of complicated and complex systems in performance and sport. Using prior knowledge to inform posterior learnings. Measuring and modelling performance to inform coaching practice. Racing sports, particularly those on two wheels.</p>
+</section>
+<section id="meta-first-blogs" class="level2">
+<h2 data-anchor-id="meta-first-blogs">Robert’ blogs</h2>
+<div id="blogs">
 
-<section id="academic-staff" class="level2">
-<h2 class="anchored" data-anchor-id="academic-staff">Academic Staff</h2>
-<div id="listing-academic" class="quarto-listing quarto-listing-container-custom">
-<div class="quarto-listing quarto-listing-container-grid">
-  <div class="list grid quarto-listing-cols-3"> 
-    <div class="g-col-1 listing-box">
-      <a href="../people/bingham-rich/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Rich Bingham" src="../people/bingham-rich/richard-1-510x655.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Rich Bingham<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              Lecturer in Mathematics &amp; Biology<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
-    </div>
-    <div class="g-col-1 listing-box">
-      <a href="../people/hargreaves-jess/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Jess Hargreaves" src="../people/hargreaves-jess/JessicaHargreaves.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Jess Hargreaves<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              Lecturer in Data Science<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
-    </div>
-    <div class="g-col-1 listing-box">
-      <a href="../people/powell-ben/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Ben Powell" src="../people/powell-ben/bpowell_profile_pic_2323_v2.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Ben Powell<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              Lecturer in Statistics<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
-    </div>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p><br></p>
 </section>
-<section id="phd-students" class="level2">
-<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
-<div id="listing-phdstudent" class="quarto-listing quarto-listing-container-custom">
-<div class="quarto-listing quarto-listing-container-grid">
-  <div class="list grid quarto-listing-cols-3"> 
-    <div class="g-col-1 listing-box">
-      <a href="../people/broughton-tara/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Tara Broughton" src="../people/broughton-tara/unnamed.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Tara Broughton<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              EPSRC PhD Student<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
+<section id="meta-first-s-group-publications" class="level2">
+<h2 data-anchor-id="meta-first-s-group-publications">Robert’s Group Publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-</div>
+<div class="list quarto-listing-default">
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-</section>
-<section id="undergraduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h2>
-<div id="listing-undergrad" class="quarto-listing quarto-listing-container-custom">
-<div class="quarto-listing quarto-listing-container-grid">
-  <div class="list grid quarto-listing-cols-3"> 
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="affiliates" class="level2">
-<h2 class="anchored" data-anchor-id="affiliates">Affiliates</h2>
-<div id="listing-external" class="quarto-listing quarto-listing-container-custom">
-<div class="quarto-listing quarto-listing-container-grid">
-  <div class="list grid quarto-listing-cols-3"> 
-    <div class="g-col-1 listing-box">
-      <a href="../people/rees_lindley-alun/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Alun Rees-Lindley" src="../people/rees_lindley-alun/AlunReesLindley.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Alun Rees-Lindley<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              Statistical Methodologist @ ONS<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
-    </div>
-    <div class="g-col-1 listing-box">
-      <a href="../people/stanley-rob/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          <p class="card-img-top">
-            <img alt="Robert Stanley" src="../people/stanley-rob/1738146852906.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          <div class="card-body post-contents">
-            <div class="listing-box-title">
-              Robert Stanley<br> 
-            </div>
-            <div class="listing-box-subtitle">
-              Performance Consultant/Coach Developer<br>
-            </div>
-          </div>  
-        </div>  
-      </a>
-    </div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+
 
 
 
@@ -442,13 +259,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -691,5 +501,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

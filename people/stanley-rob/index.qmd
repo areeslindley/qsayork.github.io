@@ -1,0 +1,67 @@
+---
+title: &TITLE Robert Stanley
+last: Stanley
+first: Robert
+subtitle: "Performance Consultant/Coach Developer"
+people_group: "external"
+email: "your@email.com"
+education:
+  - "PhD: Coaching and Performance Analysis <br> MSc Exercise and Nutrition Science <br> BA: Politics and International Relations" 
+description: "This is not used in this template"
+image: 1738146852906.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: solana
+  image-shape: rectangle
+  image: 1738146852906.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:your@email.com
+editor: 'source'
+---
+
+<hr>
+
+::: {#about}
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## Background & Research Interests
+
+Rob has a long history in sports analytics and performance coaching, including;
+
+Performance Scientist, Japan Cycling Federation. Men's Track Endurance Coach, USA Cycling. Performance Consultant/Coach Developer, Rapid Training/ Rapid Honda. Committee Member, Expertise and Skill Acquisition Network.
+
+Rob's research interests include;
+
+Developing understanding of complicated and complex systems in performance and sport. Using prior knowledge to inform posterior learnings. Measuring and modelling performance to inform coaching practice. Racing sports, particularly those on two wheels.
+
+## {{< meta first >}}' blogs
+
+::: {#blogs}
+:::
+
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

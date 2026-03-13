@@ -1,0 +1,62 @@
+---
+title: &TITLE Alun Rees-Lindley
+last: Rees-Lindley
+first: Alun
+subtitle: "Statistical Methodologist @ ONS"
+people_group: "external"
+email: "alun.rees-lindley@outlook.com"
+education:
+  - PhD Fusion Energy | University of Warwick <br> MSc Fusion Energy | University of York <br> MPhys Physics | Durham University
+description: "This is not used in this template"
+image: AlunReesLindley.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: solana
+  image-shape: rectangle
+  image: AlunReesLindley.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:alun.rees-lindley@outlook.com
+editor: 'source'
+---
+
+<hr>
+
+::: {#about}
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## Background & Research Interests
+
+I work as a statistical methodologist at the Office for National Statistics, specialising in time series analysis. I'm interested in developing and investigating the use of innovative methods for analysing various sports.
+
+
+## {{< meta first >}}' blogs
+
+::: {#blogs}
+:::
+
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::
