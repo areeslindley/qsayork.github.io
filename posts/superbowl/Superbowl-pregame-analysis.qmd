@@ -45,9 +45,9 @@ Before diving into statistics and prediction models, it's worth stating that bot
 library(readr)
 library(ggplot2)
 library(dplyr)
-library(nflplotR)
+#library(nflplotR)
 library(plotly)
-library(DT)
+#library(DT)
 library(knitr)
 
 # Load data
