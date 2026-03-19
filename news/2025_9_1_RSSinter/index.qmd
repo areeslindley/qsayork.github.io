@@ -1,0 +1,23 @@
+---
+title: "QSAY at the RSS International Conference 2025"
+date: '2025-12-8'
+image: RSS_2025-7305082.jpg
+description: "Jess and Ben were invited speakers at the RSS International Conference 2025"
+editor: 'source'
+---
+
+## QSAY at the RSS International Conference 2025
+
+QSAY was well-represented at the [RSS International Conference 2025](https://rss.org.uk/training-events/conference-2025/), which took place in Edinburgh from 1-4 September, 2025. Jess Hargreaves and Ben Powell attended the conference as invited speakers for the session on [*Statistical Modelling in Sport*](https://app.oxfordabstracts.com/events/40660/sessions/156787/download). Jess gave a talk on *"The Lioness Effect: investigating the determinants of stadium attendance in elite women's football"* and Ben's presentation discussed *"Neural density estimation with application to sports data."*
+
+![Jess Presenting](RSS_2025-03021.jpg){fig-alt="Chloe Kelly's greatness celebrated!"}
+
+The *Statistical Modelling in Sport* session formed part of a full day of sessions on Statistics in Sport (Thursday 4 th September). There was also a session of Contributed Talks under the umbrella of *"[Mixed effect models and stepped wedge trials in sport and physical activity](https://app.oxfordabstracts.com/events/40660/sessions/103001/download)"*. This was followed by presentations from the [*Statistics in Sport Section Prediction Competition Winners 2025*](https://app.oxfordabstracts.com/events/40660/sessions/156784/download), who discussed their approaches to predicting Wimbledon 2025 (in a new share-based format).
+
+![Ben Presenting](RSS_2025-03090.jpg){fig-alt="Ben Presenting"}
+
+Finally, there was a panel discussion (chaired by Jess) on "[*How data-driven approaches have transformed football*](https://app.oxfordabstracts.com/events/40660/sessions/103099/download)" with: **Matthew Benham** (Owner of Premier League club Brentford FC); **Aldo Comi** (CEO & Co-Founder at Soccerment): **Liam Henshaw** (Football Data Analyst & Scout at Unique Sports Group) and **James Reade** (University of Reading and Oldham Athletic FC).
+
+![Jess Chairing the Panel Discussion](RSS_2025-03144.jpg)
+
+We are already looking forward to the "Sports Day" at the [RSS International Conference 2026](https://rss.org.uk/training-events/conference2026/) in Bournemouth!

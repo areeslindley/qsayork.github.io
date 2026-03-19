@@ -1,6 +1,6 @@
 ---
 title: "How Efficient is Basketball?"
-date: "2/22/2022"
+date: "6/22/2025"
 author: "Rich Bingham"
 description: "Basketball has a lot of close games, but how often do good teams need to come from behind to win?"
 format: html

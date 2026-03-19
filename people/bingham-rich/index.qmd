@@ -46,7 +46,7 @@ editor: 'source'
 
 ## Research Interests
 
-I am interested in quantitative analysis of all kinds of sports, with a focus on questions that can provide insight to competitors.   I enjoy working on big data sets, trying to extract interesting arguments.    
+I am interested in quantitative analysis of all kinds of sports, with a focus on questions that can provide insight to competitors. I enjoy working on big data sets, trying to extract interesting arguments.
 
 ## {{< meta first >}}' blogs
 

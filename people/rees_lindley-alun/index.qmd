@@ -48,8 +48,7 @@ editor: 'source'
 
 I work as a statistical methodologist at the Office for National Statistics, specialising in time series analysis. I'm interested in developing and investigating the use of innovative methods for analysing various sports.
 
-
-## {{< meta first >}}' blogs
+## {{< meta first >}}'s blogs
 
 ::: {#blogs}
 :::

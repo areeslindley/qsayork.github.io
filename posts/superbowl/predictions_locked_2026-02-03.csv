@@ -1,0 +1,3 @@
+model,seahawks_win_prob,predicted_sea_score,predicted_ne_score,timestamp
+Baseline,0.5914,24,22,2026-02-03T14:11:59Z
+Elo,0.6030572645910979,25,23,2026-02-03T14:11:59Z
