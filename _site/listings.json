@@ -57,7 +57,9 @@
   },
   {
     "listing": "/people/bingham-rich/index.html",
-    "items": []
+    "items": [
+      "/posts/basketball_1/index.html"
+    ]
   },
   {
     "listing": "/people/broughton-tara/index.html",
@@ -69,6 +71,8 @@
   },
   {
     "listing": "/people/rees_lindley-alun/index.html",
-    "items": []
+    "items": [
+      "/posts/superbowl/Superbowl-pregame-analysis.html"
+    ]
   }
 ]

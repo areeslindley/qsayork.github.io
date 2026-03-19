@@ -1,14 +1,12 @@
 base
 methods
-datasets
 utils
+datasets
 grDevices
 graphics
 stats
 readr
 ggplot2
 dplyr
-nflplotR
 plotly
-DT
 knitr

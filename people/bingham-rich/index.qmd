@@ -11,17 +11,26 @@ description: "This is not used in this template"
 image: richard-1-510x655.jpg
 page-layout: full
 listing:
-  id: pubs
-  template: ../../_ejs/publications-people.ejs 
-  contents: 
-    - "../../../publications/**/*.qmd"
-    - "!../../../publications/_template/"
-  sort: "pub_number desc"
-  # sort-ui: true
-  filter-ui: true
-  include:
-    author: *TITLE
-  fields: [publication, title, categories, image, date, author]
+  - id: pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../../publications/**/*.qmd"
+      - "!../../../publications/_template/"
+    sort: "pub_number desc"
+    # sort-ui: true
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+  - id: blogs
+    contents: 
+      - "../../../posts/**/*.qmd"
+    sort: "date desc"
+    # sort-ui: true
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [title, date, description]
 about: 
   id: about
   template: solana
@@ -48,7 +57,7 @@ editor: 'source'
 
 I am interested in quantitative analysis of all kinds of sports, with a focus on questions that can provide insight to competitors. I enjoy working on big data sets, trying to extract interesting arguments.
 
-## {{< meta first >}}' blogs
+## {{< meta first >}}'s blogs
 
 ::: {#blogs}
 :::
