@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Corridor of Uncertainty – QSAY</title>
+<title>index – QSAY</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -33,15 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../images/qsay_logo_q.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fa5ece1607cad417addf4df0e36417c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-bb669177a40749fcf46b1d713d5ae2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,117 +127,242 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#latest-episodes" id="toc-latest-episodes" class="nav-link active" data-scroll-target="#latest-episodes">Latest Episodes</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">The Corridor of Uncertainty</h1>
+
+
+
+<style>
+  .cou-hero {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: white;
+  }
+  .cou-hero img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 0 6px #f0c040, 0 0 0 10px #1a1a1a;
+  }
+  .cou-hero h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #f0c040;
+    border: none;
+  }
+  .cou-hero .subtitle {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cou-hero .hosts {
+    font-size: 0.95rem;
+    color: #aaaaaa;
+  }
+  .cou-btn {
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: opacity 0.2s;
+  }
+  .cou-btn:hover { opacity: 0.85; }
+  .cou-btn-primary {
+    background: #f0c040;
+    color: #1a1a1a !important;
+  }
+  .cou-btn-secondary {
+    background: transparent;
+    color: #f0c040 !important;
+    border: 2px solid #f0c040;
+  }
+  .cou-section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid #f0c040;
+    display: inline-block;
+  }
+  .episode-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    background: white;
+  }
+  .episode-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    border-color: #f0c040;
+  }
+  .episode-number {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 0.2rem;
+  }
+  .episode-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: #1a1a1a;
+  }
+  .episode-meta {
+    font-size: 0.82rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+  .episode-desc {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+  }
+  .episode-tags span {
+    display: inline-block;
+    background: #f5f5f5;
+    color: #555;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 20px;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+  .episode-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #2a7ae2;
+    text-decoration: none;
+  }
+  .episode-link:hover { text-decoration: underline; }
+  .nav-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .nav-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1.2rem;
+    text-align: center;
+    text-decoration: none !important;
+    color: #1a1a1a !important;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    background: white;
+  }
+  .nav-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    border-color: #f0c040;
+  }
+  .nav-card .nav-icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  .nav-card .nav-label { font-weight: 600; font-size: 0.95rem; }
+  .nav-card .nav-desc { font-size: 0.82rem; color: #888; margin-top: 0.2rem; }
+</style>
+
+<!-- Hero -->
+<div class="cou-hero">
+  <img src="logo.png" alt="Corridor of Uncertainty logo">
+  <h1>The Corridor of Uncertainty</h1>
+  <p class="subtitle">A podcast at the intersection of maths &amp; sport — exploring what the numbers really tell us.</p>
+  <p class="hosts">Hosted by <strong>Dr Jess Hargreaves</strong> &amp; <strong>Dr Rich Bingham</strong> &nbsp;·&nbsp; Department of Mathematics, University of York</p>
+  <br>
+  <a class="cou-btn cou-btn-primary" href="episodes/index.html">📺 Browse Episodes</a>
+  <a class="cou-btn cou-btn-secondary" href="https://www.youtube.com/@CorridorOfUncertainty" target="_blank">▶ YouTube Channel</a>
 </div>
 
+<!-- Latest Episodes -->
+<p class="cou-section-title">Latest Episodes</p>
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="episode-card">
+  <div class="episode-number">Episode 6</div>
+  <div class="episode-title">Can Maths Predict Curling Games?</div>
+  <div class="episode-meta">📅 10 Feb 2026 &nbsp;·&nbsp; ⏱ 31:16</div>
+  <div class="episode-desc">Curling is an incredible combination of skill and strategy. We use binomial regression to quantify accuracy and predict match outcomes — ahead of Milan Cortina 2026.</div>
+  <div class="episode-tags">
+    <span>Curling</span><span>Winter Olympics</span><span>Binomial Regression</span>
   </div>
-  
+  <a class="episode-link" href="episodes/episode-006.html">Read more →</a>
+  &nbsp;&nbsp;
+  <a class="episode-link" href="https://www.youtube.com/watch?v=H2lbiTPuMhc&amp;t=698s" target="_blank">Watch on YouTube ↗</a>
+</div>
 
+<div class="episode-card">
+  <div class="episode-number">Episode 5</div>
+  <div class="episode-title">Best January Transfer Signings Ever? — Can Stats Decide?</div>
+  <div class="episode-meta">📅 27 Jan 2026 &nbsp;·&nbsp; ⏱ 33:45</div>
+  <div class="episode-desc">Vidic vs van Dijk — who made the bigger impact? We apply Elo ratings and changepoint analysis to find out who truly transformed their club after a January move.</div>
+  <div class="episode-tags">
+    <span>Football</span><span>Premier League</span><span>Elo</span><span>Changepoint Analysis</span>
+  </div>
+  <a class="episode-link" href="episodes/episode-005.html">Read more →</a>
+  &nbsp;&nbsp;
+  <a class="episode-link" href="https://www.youtube.com/watch?v=fEXpzZSyGoI" target="_blank">Watch on YouTube ↗</a>
+</div>
 
-</header>
+<div class="episode-card">
+  <div class="episode-number">Episode 4</div>
+  <div class="episode-title">How Random is the NBA? — Can Statistics Prove Basketball is a Bad Sport?</div>
+  <div class="episode-meta">📅 13 Jan 2026 &nbsp;·&nbsp; ⏱ 29:15</div>
+  <div class="episode-desc">Both teams score around 100 points, and games are often decided by the final possession. Does that mean the winner is essentially a 50/50 coin flip?</div>
+  <div class="episode-tags">
+    <span>Basketball</span><span>NBA</span><span>Randomness</span>
+  </div>
+  <a class="episode-link" href="episodes/episode-004.html">Read more →</a>
+  &nbsp;&nbsp;
+  <a class="episode-link" href="https://www.youtube.com/watch?v=sBAKID4RidY" target="_blank">Watch on YouTube ↗</a>
+</div>
 
+<br>
+<a class="episode-link" href="episodes/index.html">View all episodes →</a>
 
-<p>Welcome to the <strong>Corridor of Uncertainty</strong>, a podcast at the intersection of maths &amp; sport. Hosted by Dr Jess Hargreaves &amp; Dr Rich Bingham, two mathematicians at the University of York.</p>
-<p>This site provides an organised archive of all episodes, with enhanced content including:</p>
-<ul>
-<li>Episode summaries and overviews</li>
-<li>Interactive visualisations and code examples</li>
-<li>Supplementary resources and links</li>
-<li>Technical deep-dives</li>
-</ul>
-<div class="grid">
-<div class="g-col-6">
-<div class="card h-100">
-<section id="watch-on-youtube" class="level3 card-body">
-<h3 class="anchored" data-anchor-id="watch-on-youtube">📺 Watch on YouTube</h3>
-<p><a href="https://www.youtube.com/@CorridorOfUncertainty">Visit the official YouTube channel</a></p>
-</section>
-</div>
-</div>
-<div class="g-col-6">
-<div class="card h-100">
-<section id="browse-episodes" class="level3 card-body">
-<h3 class="anchored" data-anchor-id="browse-episodes">📖 Browse Episodes</h3>
-<p><a href="../corridor/episodes/episode-001.html">Start with Episode 1</a></p>
-</section>
-</div>
-</div>
-<div class="g-col-6">
-<div class="card h-100">
-<section id="ℹ-about" class="level3 card-body">
-<h3 class="anchored" data-anchor-id="ℹ-about">ℹ️ About</h3>
-<p><a href="about.qmd">Learn more about the channel</a></p>
-</section>
-</div>
-</div>
-<div class="g-col-6">
-<div class="card h-100">
-<section id="upcoming" class="level3 card-body">
-<h3 class="anchored" data-anchor-id="upcoming">🔮 Upcoming</h3>
-<p><a href="upcoming.qmd">See what’s coming next</a></p>
-</section>
-</div>
-</div>
-</div>
-<section id="latest-episodes" class="level2">
-<h2 class="anchored" data-anchor-id="latest-episodes">Latest Episodes</h2>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Episode 7: [Title TBD]
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Published: [Date TBD]</em></p>
-<p>[Brief description]</p>
-<p><a href="https://youtube.com/...">Watch on YouTube</a> | <a href="episodes/episode-006.qmd">Read More</a></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Episode 6: Can Maths Predict Curling Games?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Published: [Date TBD]</em></p>
-<p>[Brief description]</p>
-<p><a href="https://youtu.be/H2lbiTPuMhc?si=dRs9z6LJIOZUXuI-">Watch on YouTube</a> | <a href="episodes/episode-006.qmd">Read More</a></p>
-</div>
+<!-- Navigation -->
+<br><br>
+<p class="cou-section-title">Explore</p>
+
+<div class="nav-cards">
+  <a class="nav-card" href="episodes/index.html">
+    <div class="nav-icon">📋</div>
+    <div class="nav-label">All Episodes</div>
+    <div class="nav-desc">Full episode archive</div>
+  </a>
+  <a class="nav-card" href="about.html">
+    <div class="nav-icon">ℹ️</div>
+    <div class="nav-label">About</div>
+    <div class="nav-desc">About the channel and team</div>
+  </a>
+  <a class="nav-card" href="upcoming.html">
+    <div class="nav-icon">🔮</div>
+    <div class="nav-label">Upcoming</div>
+    <div class="nav-desc">What's coming next</div>
+  </a>
+  <a class="nav-card" href="https://www.youtube.com/@CorridorOfUncertainty" target="_blank">
+    <div class="nav-icon">▶️</div>
+    <div class="nav-label">YouTube</div>
+    <div class="nav-desc">Watch on YouTube</div>
+  </a>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
