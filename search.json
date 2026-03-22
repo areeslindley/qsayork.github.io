@@ -210,123 +210,158 @@
     "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 2\n\n\n➡️ Episode 4"
   },
   {
-    "objectID": "corridor/episodes/episode-006.html",
-    "href": "corridor/episodes/episode-006.html",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "objectID": "corridor/episodes/episode-004.html",
+    "href": "corridor/episodes/episode-004.html",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "",
-    "text": "Published: 2026-02-10\nDuration: 31:16\nYouTube: Watch here\n\n\nTopics Covered: Curling, Winter Olympics, Statistics, Binomial Regression"
+    "text": "Published: 2026-01-13\nDuration: 29:15\nYouTube: Watch here\n\n\nTopics Covered: Maths, Statistics, Basketball, NBA"
   },
   {
-    "objectID": "corridor/episodes/episode-006.html#video",
-    "href": "corridor/episodes/episode-006.html#video",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "objectID": "corridor/episodes/episode-004.html#video",
+    "href": "corridor/episodes/episode-004.html#video",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "corridor/episodes/episode-006.html#overview",
-    "href": "corridor/episodes/episode-006.html#overview",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "objectID": "corridor/episodes/episode-004.html#overview",
+    "href": "corridor/episodes/episode-004.html#overview",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Overview",
-    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nCurling is an incredible combination of skill and strategy, and one of our favourite sports. Can we use stats to try to understand it better, and to find out how to win?\n\nTimestamps:\n\n1:20 Introduction to Curling\n6:44 Curling World Championship Results\n11:55 Curling Accuracy Explained\n15:48 Accurate Teams Win Games\n19:45 How Accurate is each Curler?\n21:47 Can Accuracy Predict the Win? (Binomial Regression)\n\nReferences:\n\nBBC explainer on Curling: https://www.bbc.co.uk/sport/olympics/...\nBruce Mouat’s letter to his younger self: https://www.bbc.co.uk/sport/articles/..."
+    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nIs the NBA just random? Basketball games are often decided by the last shot, but both teams usually score around 100 points. Does this mean that the outcome is just decided by whoever had the ball last? This would mean the winner is basically decided on a 50/50 chance. Can stats tell us if this is really the case? Does scoring a buzzer beater mean your team is good — or just lucky?"
   },
   {
-    "objectID": "corridor/episodes/episode-006.html#key-concepts",
-    "href": "corridor/episodes/episode-006.html#key-concepts",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
-    "section": "Key Concepts",
-    "text": "Key Concepts\n\n\n\n\n\n\nTipCurling\n\n\n\n[Explanation of the sport and its scoring system]\n\n\n\n\n\n\n\n\nTipBinomial Regression\n\n\n\n[Explanation of binomial regression and how it applies to predicting win probability from accuracy data]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-006.html#resources-references",
-    "href": "corridor/episodes/episode-006.html#resources-references",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
-    "section": "Resources & References",
-    "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-006.html#transcript-highlights",
-    "href": "corridor/episodes/episode-006.html#transcript-highlights",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
-    "section": "Transcript Highlights",
-    "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-006.html#code-examples",
-    "href": "corridor/episodes/episode-006.html#code-examples",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
-    "section": "Code Examples",
-    "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
-  },
-  {
-    "objectID": "corridor/episodes/episode-006.html#discussion",
-    "href": "corridor/episodes/episode-006.html#discussion",
-    "title": "Episode 6: Can Maths Predict Curling Games?",
-    "section": "Discussion",
-    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 5\n\n\n🏠 Back to Home"
-  },
-  {
-    "objectID": "corridor/episodes/episode-002.html",
-    "href": "corridor/episodes/episode-002.html",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
-    "section": "",
-    "text": "Published: 2025-12-17\nDuration: 34:18\nYouTube: Watch here\n\n\nTopics Covered: Maths, Statistics, SPOTY"
-  },
-  {
-    "objectID": "corridor/episodes/episode-002.html#video",
-    "href": "corridor/episodes/episode-002.html#video",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "corridor/episodes/episode-002.html#overview",
-    "href": "corridor/episodes/episode-002.html#overview",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
-    "section": "Overview",
-    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nThe BBC Sports Personality of the Year award compares athletes & competitors from very different sports. Can we use maths to do the same thing, maybe in a fairer way? Here we discuss this year’s nominations, previous winners (and some omissions) before looking at an attempt to rank all-time sporting greats."
-  },
-  {
-    "objectID": "corridor/episodes/episode-002.html#key-concepts",
-    "href": "corridor/episodes/episode-002.html#key-concepts",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "objectID": "corridor/episodes/episode-004.html#key-concepts",
+    "href": "corridor/episodes/episode-004.html#key-concepts",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Key Concepts",
     "text": "Key Concepts\n\n\n\n\n\n\nTip[Key Concept 1]\n\n\n\n[Explanation of the concept]\n\n\n\n\n\n\n\n\nTip[Key Concept 2]\n\n\n\n[Explanation of the concept]"
   },
   {
-    "objectID": "corridor/episodes/episode-002.html#resources-references",
-    "href": "corridor/episodes/episode-002.html#resources-references",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "objectID": "corridor/episodes/episode-004.html#resources-references",
+    "href": "corridor/episodes/episode-004.html#resources-references",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Resources & References",
     "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
   },
   {
-    "objectID": "corridor/episodes/episode-002.html#transcript-highlights",
-    "href": "corridor/episodes/episode-002.html#transcript-highlights",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "objectID": "corridor/episodes/episode-004.html#transcript-highlights",
+    "href": "corridor/episodes/episode-004.html#transcript-highlights",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Transcript Highlights",
     "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
   },
   {
-    "objectID": "corridor/episodes/episode-002.html#code-examples",
-    "href": "corridor/episodes/episode-002.html#code-examples",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "objectID": "corridor/episodes/episode-004.html#code-examples",
+    "href": "corridor/episodes/episode-004.html#code-examples",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Code Examples",
     "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
   },
   {
-    "objectID": "corridor/episodes/episode-002.html#discussion",
-    "href": "corridor/episodes/episode-002.html#discussion",
-    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "objectID": "corridor/episodes/episode-004.html#discussion",
+    "href": "corridor/episodes/episode-004.html#discussion",
+    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
     "section": "Discussion",
-    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 1\n\n\n➡️ Episode 3"
+    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 3\n\n\n➡️ Episode 5"
   },
   {
-    "objectID": "corridor/episodes/index.html",
-    "href": "corridor/episodes/index.html",
-    "title": "Episodes",
+    "objectID": "corridor/episodes/episode-005.html",
+    "href": "corridor/episodes/episode-005.html",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
     "section": "",
-    "text": "All episodes from The Corridor of Uncertainty — a podcast at the intersection of maths & sport, hosted by Dr Jess Hargreaves & Dr Rich Bingham at the University of York.\n⬅️ Back to Corridor Home\n\n\n\n\n\n\n\n\n\n\n\nEpisode 1: The SPLit — How fair is Scottish Football?\n\n\n\nFootball\n\nScottish Premier League\n\nStatistics\n\n\n\nHow fair is Scottish football? We talk about the Split format in the Scottish Premier League, including some of the unintended consequences.\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 2: Sports Personality of the Year — Can we use stats to rank sports?\n\n\n\nMaths\n\nStatistics\n\nSPOTY\n\n\n\nThe BBC Sports Personality of the Year award compares athletes from very different sports. Can we use maths to do the same thing, perhaps more fairly?\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 3: The CoU Sports Statistic of the Year 2025\n\n\n\nMaths\n\nStatistics\n\nSSOTY\n\n\n\nWe debate what should be crowned the number of the sporting year, from record viewing figures to outstanding individual performances.\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?\n\n\n\nMaths\n\nStatistics\n\nBasketball\n\nNBA\n\n\n\nIs the NBA just random? Basketball games are often decided by the last shot — does this mean the outcome is essentially a 50/50 coin flip?\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\nEpisode 5: Best January Transfer Signings Ever? — Can Stats Decide?\n\n\n\nFootball\n\nPremier League\n\nTransfers\n\nElo\n\nChangepoint Analysis\n\n\n\nWho is the best January transfer signing ever? We take a look at some of the big names and see if stats can settle the debate.\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\nEpisode 6: Can Maths Predict Curling Games?\n\n\n\nCurling\n\nWinter Olympics\n\nStatistics\n\nBinomial Regression\n\n\n\nCurling is an incredible combination of skill and strategy. Can we use stats to understand it better, and to find out how to win?\n\n\n\nFeb 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Published: 2026-01-27\nDuration: 33:45\nYouTube: Watch here\n\n\nTopics Covered: Football, Premier League, January Transfers, Elo Ratings, Changepoint Analysis"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#video",
+    "href": "corridor/episodes/episode-005.html#video",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#overview",
+    "href": "corridor/episodes/episode-005.html#overview",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Overview",
+    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nWho is the best January transfer signing ever? We take a look at some of the big names and see if we can use stats to settle the debate.\n\nTimestamps:\n\n2:12 Honourable Mentions\n6:50 Vidic vs van Dijk\n10:20 Elo ratings\n13:40 Changepoint analysis\n17:10 Vidic’s Change Points\n21:55 van Dijk’s Change Points\n25:30 Before January vs After January\n28:28 Newcastle’s Incredible Turnaround\n30:31 The correct answer!\n\nReferences:\n\nhttps://www.premierleague.com/en/news...\nhttps://www.fourfourtwo.com/features/...\nKillick, R., & Eckley, I. A. (2014). changepoint: An R package for changepoint analysis. Journal of Statistical Software, 58, 1–19."
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#key-concepts",
+    "href": "corridor/episodes/episode-005.html#key-concepts",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\n\n\n\n\n\nTipElo Ratings\n\n\n\n[Explanation of how Elo ratings work in a football context]\n\n\n\n\n\n\n\n\nTipChangepoint Analysis\n\n\n\n[Explanation of changepoint analysis and how it detects structural breaks in performance data]"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#resources-references",
+    "href": "corridor/episodes/episode-005.html#resources-references",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Resources & References",
+    "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#transcript-highlights",
+    "href": "corridor/episodes/episode-005.html#transcript-highlights",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Transcript Highlights",
+    "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#code-examples",
+    "href": "corridor/episodes/episode-005.html#code-examples",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Code Examples",
+    "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
+  },
+  {
+    "objectID": "corridor/episodes/episode-005.html#discussion",
+    "href": "corridor/episodes/episode-005.html#discussion",
+    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "section": "Discussion",
+    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 4\n\n\n➡️ Episode 6"
+  },
+  {
+    "objectID": "corridor/about.html",
+    "href": "corridor/about.html",
+    "title": "About the Corridor of Uncertainty",
+    "section": "",
+    "text": "The Corridor of Uncertainty is the YouTube channel for the Quantitative Sports Analysis: York (QSA:Y) group, based in the Department of Mathematics at the University of York. We highlight and critique interesting applications of mathematical modelling and analysis in sport, and promote a dialogue between the worlds of sport and mathematics — which ought to benefit both, as well as being fun!\nCreated by: Dr Jess Hargreaves and Dr Rich Bingham"
+  },
+  {
+    "objectID": "corridor/about.html#the-channel",
+    "href": "corridor/about.html#the-channel",
+    "title": "About the Corridor of Uncertainty",
+    "section": "",
+    "text": "The Corridor of Uncertainty is the YouTube channel for the Quantitative Sports Analysis: York (QSA:Y) group, based in the Department of Mathematics at the University of York. We highlight and critique interesting applications of mathematical modelling and analysis in sport, and promote a dialogue between the worlds of sport and mathematics — which ought to benefit both, as well as being fun!\nCreated by: Dr Jess Hargreaves and Dr Rich Bingham"
+  },
+  {
+    "objectID": "corridor/about.html#mission",
+    "href": "corridor/about.html#mission",
+    "title": "About the Corridor of Uncertainty",
+    "section": "Mission",
+    "text": "Mission\n[Add mission statement]"
+  },
+  {
+    "objectID": "corridor/about.html#episodes",
+    "href": "corridor/about.html#episodes",
+    "title": "About the Corridor of Uncertainty",
+    "section": "Episodes",
+    "text": "Episodes\n\nEpisode 1: The SPLit — How fair is Scottish Football?\nEpisode 2: Sports Personality of the Year — Can we use stats to rank sports?\nEpisode 3: The CoU Sports Statistic of the Year 2025\nEpisode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?\nEpisode 5: Best January Transfer Signings Ever? — Can Stats Decide?\nEpisode 6: Can Maths Predict Curling Games?\nBonus: Which Sports win BBC Sports Personality of the Year the most?"
+  },
+  {
+    "objectID": "corridor/about.html#about-this-site",
+    "href": "corridor/about.html#about-this-site",
+    "title": "About the Corridor of Uncertainty",
+    "section": "About This Site",
+    "text": "About This Site\nThis companion website is built using Quarto, an open-source scientific and technical publishing system. It provides:\n\n\n\n\n📝 Enhanced Content\nEpisode summaries, code samples, and extended explanations\n\n\n\n\n\n\n🔬 Interactive Visualisations\nExplore data and concepts hands-on\n\n\n\n\n\n\n🔗 Organised Resources\nAll links, papers, and references in one place\n\n\n\n\n\n\n🔍 Full-Text Search\nFind content across all episodes instantly"
+  },
+  {
+    "objectID": "corridor/about.html#connect",
+    "href": "corridor/about.html#connect",
+    "title": "About the Corridor of Uncertainty",
+    "section": "Connect",
+    "text": "Connect\n\nYouTube: The Corridor of Uncertainty\nQSA:Y Group: University of York\n\n\n\n\n🏠 Back to Home"
   },
   {
     "objectID": "corridor/index.html",
@@ -525,158 +560,123 @@
     "text": "Keep an eye on the YouTube channel for the latest releases.\n\nComing Soon\n\n\n\nEpisode 7 TBD\n\n\n[Title to be announced]\n\n\nDetails coming soon — subscribe on YouTube to be notified when the next episode drops.\n\n\n\n⬅️ Back to Corridor Home"
   },
   {
-    "objectID": "corridor/episodes/episode-005.html",
-    "href": "corridor/episodes/episode-005.html",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "objectID": "corridor/episodes/index.html",
+    "href": "corridor/episodes/index.html",
+    "title": "Episodes",
     "section": "",
-    "text": "Published: 2026-01-27\nDuration: 33:45\nYouTube: Watch here\n\n\nTopics Covered: Football, Premier League, January Transfers, Elo Ratings, Changepoint Analysis"
+    "text": "All episodes from The Corridor of Uncertainty — a podcast at the intersection of maths & sport, hosted by Dr Jess Hargreaves & Dr Rich Bingham at the University of York.\n⬅️ Back to Corridor Home\n\n\n\n\n\n\n\n\n\n\n\nEpisode 1: The SPLit — How fair is Scottish Football?\n\n\n\nFootball\n\nScottish Premier League\n\nStatistics\n\n\n\nHow fair is Scottish football? We talk about the Split format in the Scottish Premier League, including some of the unintended consequences.\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 2: Sports Personality of the Year — Can we use stats to rank sports?\n\n\n\nMaths\n\nStatistics\n\nSPOTY\n\n\n\nThe BBC Sports Personality of the Year award compares athletes from very different sports. Can we use maths to do the same thing, perhaps more fairly?\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 3: The CoU Sports Statistic of the Year 2025\n\n\n\nMaths\n\nStatistics\n\nSSOTY\n\n\n\nWe debate what should be crowned the number of the sporting year, from record viewing figures to outstanding individual performances.\n\n\n\nDec 2025\n\n\n\n\n\n\n\n\n\n\nEpisode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?\n\n\n\nMaths\n\nStatistics\n\nBasketball\n\nNBA\n\n\n\nIs the NBA just random? Basketball games are often decided by the last shot — does this mean the outcome is essentially a 50/50 coin flip?\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\nEpisode 5: Best January Transfer Signings Ever? — Can Stats Decide?\n\n\n\nFootball\n\nPremier League\n\nTransfers\n\nElo\n\nChangepoint Analysis\n\n\n\nWho is the best January transfer signing ever? We take a look at some of the big names and see if stats can settle the debate.\n\n\n\nJan 2026\n\n\n\n\n\n\n\n\n\n\nEpisode 6: Can Maths Predict Curling Games?\n\n\n\nCurling\n\nWinter Olympics\n\nStatistics\n\nBinomial Regression\n\n\n\nCurling is an incredible combination of skill and strategy. Can we use stats to understand it better, and to find out how to win?\n\n\n\nFeb 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "corridor/episodes/episode-005.html#video",
-    "href": "corridor/episodes/episode-005.html#video",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "objectID": "corridor/episodes/episode-002.html",
+    "href": "corridor/episodes/episode-002.html",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
+    "section": "",
+    "text": "Published: 2025-12-17\nDuration: 34:18\nYouTube: Watch here\n\n\nTopics Covered: Maths, Statistics, SPOTY"
+  },
+  {
+    "objectID": "corridor/episodes/episode-002.html#video",
+    "href": "corridor/episodes/episode-002.html#video",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "corridor/episodes/episode-005.html#overview",
-    "href": "corridor/episodes/episode-005.html#overview",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
+    "objectID": "corridor/episodes/episode-002.html#overview",
+    "href": "corridor/episodes/episode-002.html#overview",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Overview",
-    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nWho is the best January transfer signing ever? We take a look at some of the big names and see if we can use stats to settle the debate.\n\nTimestamps:\n\n2:12 Honourable Mentions\n6:50 Vidic vs van Dijk\n10:20 Elo ratings\n13:40 Changepoint analysis\n17:10 Vidic’s Change Points\n21:55 van Dijk’s Change Points\n25:30 Before January vs After January\n28:28 Newcastle’s Incredible Turnaround\n30:31 The correct answer!\n\nReferences:\n\nhttps://www.premierleague.com/en/news...\nhttps://www.fourfourtwo.com/features/...\nKillick, R., & Eckley, I. A. (2014). changepoint: An R package for changepoint analysis. Journal of Statistical Software, 58, 1–19."
+    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nThe BBC Sports Personality of the Year award compares athletes & competitors from very different sports. Can we use maths to do the same thing, maybe in a fairer way? Here we discuss this year’s nominations, previous winners (and some omissions) before looking at an attempt to rank all-time sporting greats."
   },
   {
-    "objectID": "corridor/episodes/episode-005.html#key-concepts",
-    "href": "corridor/episodes/episode-005.html#key-concepts",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
-    "section": "Key Concepts",
-    "text": "Key Concepts\n\n\n\n\n\n\nTipElo Ratings\n\n\n\n[Explanation of how Elo ratings work in a football context]\n\n\n\n\n\n\n\n\nTipChangepoint Analysis\n\n\n\n[Explanation of changepoint analysis and how it detects structural breaks in performance data]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-005.html#resources-references",
-    "href": "corridor/episodes/episode-005.html#resources-references",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
-    "section": "Resources & References",
-    "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-005.html#transcript-highlights",
-    "href": "corridor/episodes/episode-005.html#transcript-highlights",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
-    "section": "Transcript Highlights",
-    "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
-  },
-  {
-    "objectID": "corridor/episodes/episode-005.html#code-examples",
-    "href": "corridor/episodes/episode-005.html#code-examples",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
-    "section": "Code Examples",
-    "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
-  },
-  {
-    "objectID": "corridor/episodes/episode-005.html#discussion",
-    "href": "corridor/episodes/episode-005.html#discussion",
-    "title": "Episode 5: Best January Transfer Signings Ever? — Can Stats Decide?",
-    "section": "Discussion",
-    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 4\n\n\n➡️ Episode 6"
-  },
-  {
-    "objectID": "corridor/episodes/episode-004.html",
-    "href": "corridor/episodes/episode-004.html",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
-    "section": "",
-    "text": "Published: 2026-01-13\nDuration: 29:15\nYouTube: Watch here\n\n\nTopics Covered: Maths, Statistics, Basketball, NBA"
-  },
-  {
-    "objectID": "corridor/episodes/episode-004.html#video",
-    "href": "corridor/episodes/episode-004.html#video",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "corridor/episodes/episode-004.html#overview",
-    "href": "corridor/episodes/episode-004.html#overview",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
-    "section": "Overview",
-    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nIs the NBA just random? Basketball games are often decided by the last shot, but both teams usually score around 100 points. Does this mean that the outcome is just decided by whoever had the ball last? This would mean the winner is basically decided on a 50/50 chance. Can stats tell us if this is really the case? Does scoring a buzzer beater mean your team is good — or just lucky?"
-  },
-  {
-    "objectID": "corridor/episodes/episode-004.html#key-concepts",
-    "href": "corridor/episodes/episode-004.html#key-concepts",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
+    "objectID": "corridor/episodes/episode-002.html#key-concepts",
+    "href": "corridor/episodes/episode-002.html#key-concepts",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Key Concepts",
     "text": "Key Concepts\n\n\n\n\n\n\nTip[Key Concept 1]\n\n\n\n[Explanation of the concept]\n\n\n\n\n\n\n\n\nTip[Key Concept 2]\n\n\n\n[Explanation of the concept]"
   },
   {
-    "objectID": "corridor/episodes/episode-004.html#resources-references",
-    "href": "corridor/episodes/episode-004.html#resources-references",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
+    "objectID": "corridor/episodes/episode-002.html#resources-references",
+    "href": "corridor/episodes/episode-002.html#resources-references",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Resources & References",
     "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
   },
   {
-    "objectID": "corridor/episodes/episode-004.html#transcript-highlights",
-    "href": "corridor/episodes/episode-004.html#transcript-highlights",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
+    "objectID": "corridor/episodes/episode-002.html#transcript-highlights",
+    "href": "corridor/episodes/episode-002.html#transcript-highlights",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Transcript Highlights",
     "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
   },
   {
-    "objectID": "corridor/episodes/episode-004.html#code-examples",
-    "href": "corridor/episodes/episode-004.html#code-examples",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
+    "objectID": "corridor/episodes/episode-002.html#code-examples",
+    "href": "corridor/episodes/episode-002.html#code-examples",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Code Examples",
     "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
   },
   {
-    "objectID": "corridor/episodes/episode-004.html#discussion",
-    "href": "corridor/episodes/episode-004.html#discussion",
-    "title": "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?",
+    "objectID": "corridor/episodes/episode-002.html#discussion",
+    "href": "corridor/episodes/episode-002.html#discussion",
+    "title": "Episode 2: Sports Personality of the Year — Can we use stats to rank sports?",
     "section": "Discussion",
-    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 3\n\n\n➡️ Episode 5"
+    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 1\n\n\n➡️ Episode 3"
   },
   {
-    "objectID": "corridor/episodes/about.html",
-    "href": "corridor/episodes/about.html",
-    "title": "About the Corridor of Uncertainty",
+    "objectID": "corridor/episodes/episode-006.html",
+    "href": "corridor/episodes/episode-006.html",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
     "section": "",
-    "text": "The Corridor of Uncertainty is the YouTube channel for the Quantitative Sports Analysis: York (QSA:Y) group, based in the Department of Mathematics at the University of York. We highlight and critique interesting applications of mathematical modelling and analysis in sport, and promote a dialogue between the worlds of sport and mathematics — which ought to benefit both, as well as being fun!\nCreated by: Dr Jess Hargreaves and Dr Rich Bingham"
+    "text": "Published: 2026-02-10\nDuration: 31:16\nYouTube: Watch here\n\n\nTopics Covered: Curling, Winter Olympics, Statistics, Binomial Regression"
   },
   {
-    "objectID": "corridor/episodes/about.html#the-channel",
-    "href": "corridor/episodes/about.html#the-channel",
-    "title": "About the Corridor of Uncertainty",
-    "section": "",
-    "text": "The Corridor of Uncertainty is the YouTube channel for the Quantitative Sports Analysis: York (QSA:Y) group, based in the Department of Mathematics at the University of York. We highlight and critique interesting applications of mathematical modelling and analysis in sport, and promote a dialogue between the worlds of sport and mathematics — which ought to benefit both, as well as being fun!\nCreated by: Dr Jess Hargreaves and Dr Rich Bingham"
+    "objectID": "corridor/episodes/episode-006.html#video",
+    "href": "corridor/episodes/episode-006.html#video",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Video",
+    "text": "Video"
   },
   {
-    "objectID": "corridor/episodes/about.html#mission",
-    "href": "corridor/episodes/about.html#mission",
-    "title": "About the Corridor of Uncertainty",
-    "section": "Mission",
-    "text": "Mission\n[Add mission statement]"
+    "objectID": "corridor/episodes/episode-006.html#overview",
+    "href": "corridor/episodes/episode-006.html#overview",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Overview",
+    "text": "Overview\nWelcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.\nCurling is an incredible combination of skill and strategy, and one of our favourite sports. Can we use stats to try to understand it better, and to find out how to win?\n\nTimestamps:\n\n1:20 Introduction to Curling\n6:44 Curling World Championship Results\n11:55 Curling Accuracy Explained\n15:48 Accurate Teams Win Games\n19:45 How Accurate is each Curler?\n21:47 Can Accuracy Predict the Win? (Binomial Regression)\n\nReferences:\n\nBBC explainer on Curling: https://www.bbc.co.uk/sport/olympics/...\nBruce Mouat’s letter to his younger self: https://www.bbc.co.uk/sport/articles/..."
   },
   {
-    "objectID": "corridor/episodes/about.html#episodes",
-    "href": "corridor/episodes/about.html#episodes",
-    "title": "About the Corridor of Uncertainty",
-    "section": "Episodes",
-    "text": "Episodes\n\nEpisode 1: The SPLit — How fair is Scottish Football?\nEpisode 2: Sports Personality of the Year — Can we use stats to rank sports?\nEpisode 3: The CoU Sports Statistic of the Year 2025\nEpisode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?\nEpisode 5: Best January Transfer Signings Ever? — Can Stats Decide?\nEpisode 6: Can Maths Predict Curling Games?\nBonus: Which Sports win BBC Sports Personality of the Year the most?"
+    "objectID": "corridor/episodes/episode-006.html#key-concepts",
+    "href": "corridor/episodes/episode-006.html#key-concepts",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\n\n\n\n\n\nTipCurling\n\n\n\n[Explanation of the sport and its scoring system]\n\n\n\n\n\n\n\n\nTipBinomial Regression\n\n\n\n[Explanation of binomial regression and how it applies to predicting win probability from accuracy data]"
   },
   {
-    "objectID": "corridor/episodes/about.html#about-this-site",
-    "href": "corridor/episodes/about.html#about-this-site",
-    "title": "About the Corridor of Uncertainty",
-    "section": "About This Site",
-    "text": "About This Site\nThis companion website is built using Quarto, an open-source scientific and technical publishing system. It provides:\n\n\n\n\n📝 Enhanced Content\nEpisode summaries, code samples, and extended explanations\n\n\n\n\n\n\n🔬 Interactive Visualisations\nExplore data and concepts hands-on\n\n\n\n\n\n\n🔗 Organised Resources\nAll links, papers, and references in one place\n\n\n\n\n\n\n🔍 Full-Text Search\nFind content across all episodes instantly"
+    "objectID": "corridor/episodes/episode-006.html#resources-references",
+    "href": "corridor/episodes/episode-006.html#resources-references",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Resources & References",
+    "text": "Resources & References\n\n[Link to paper/article 1]\n[Link to code repository]\n[Link to related resource]"
   },
   {
-    "objectID": "corridor/episodes/about.html#connect",
-    "href": "corridor/episodes/about.html#connect",
-    "title": "About the Corridor of Uncertainty",
-    "section": "Connect",
-    "text": "Connect\n\nYouTube: The Corridor of Uncertainty\nQSA:Y Group: University of York\n\n\n\n\n🏠 Back to Home"
+    "objectID": "corridor/episodes/episode-006.html#transcript-highlights",
+    "href": "corridor/episodes/episode-006.html#transcript-highlights",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Transcript Highlights",
+    "text": "Transcript Highlights\n\n“[Notable quote from the video]”\n\n[Additional context or explanation]\n\n\n“[Another notable quote]”\n\n[Context]"
+  },
+  {
+    "objectID": "corridor/episodes/episode-006.html#code-examples",
+    "href": "corridor/episodes/episode-006.html#code-examples",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Code Examples",
+    "text": "Code Examples\n\nPythonR\n\n\n# Example code from episode\ndef example_function():\n    pass\n\n\n# R equivalent if applicable\nexample_function &lt;- function() {\n  # code\n}"
+  },
+  {
+    "objectID": "corridor/episodes/episode-006.html#discussion",
+    "href": "corridor/episodes/episode-006.html#discussion",
+    "title": "Episode 6: Can Maths Predict Curling Games?",
+    "section": "Discussion",
+    "text": "Discussion\n[Add any additional commentary, extended explanations, or connections to other episodes]\n\n\n\n\n\n\nNoteRelated Episodes\n\n\n\n\n[Episode X: Related Topic](episode-00X.qmd)\n[Episode Y: Follow-up Topic](episode-00Y.qmd)\n\n\n\n\n\n\n⬅️ Episode 5\n\n\n🏠 Back to Home"
   },
   {
     "objectID": "corridor/episodes/episode-001.html",
