@@ -1,40 +1,33 @@
 ---
-title: "Episode 3: The CoU Sports Statistic of the Year 2025"
-date: 2025-12-24
-description: "We debate what should be crowned the number of the sporting year, from record viewing figures to outstanding individual performances."
-categories: [Maths, Statistics, SSOTY]
+title: "Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?"
+date: 2026-01-13
+description: "Is the NBA just random? Basketball games are often decided by the last shot — does this mean the outcome is essentially a 50/50 coin flip?"
+categories: [Maths, Statistics, Basketball, NBA]
 ---
 
 ::: {.grid}
 
 ::: {.g-col-6}
-**Published**: 2025-12-24  
-**Duration**: 47:27  
-**YouTube**: [Watch here](https://www.youtube.com/watch?v=L4TlGfVxhFg)
+**Published**: 2026-01-13  
+**Duration**: 29:15  
+**YouTube**: [Watch here](https://www.youtube.com/watch?v=sBAKID4RidY)
 :::
 
 ::: {.g-col-6}
-**Topics Covered**: Maths, Statistics, SSOTY
+**Topics Covered**: Maths, Statistics, Basketball, NBA
 :::
 
 :::
 
 ## Video
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/L4TlGfVxhFg?si=P4_DtVJUEWc2ebNT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/sBAKID4RidY?si=oeZ7kVzfHtFawyUZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 
 Welcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.
 
-It's the most wonderful time of the year — when we debate what should be crowned the number of the sporting year. We present our candidates to you, from record viewing figures to outstanding individual performances. But what do you think should be the CoU Sports Statistic of the Year 2025? Have your say in the comments!
-
----
-
-Some interesting links:
-
-- <https://rss.org.uk/news-publication/n...>
-- <https://www.bbc.co.uk/sport/rugby-uni...>
+Is the NBA just random? Basketball games are often decided by the last shot, but both teams usually score around 100 points. Does this mean that the outcome is just decided by whoever had the ball last? This would mean the winner is basically decided on a 50/50 chance. Can stats tell us if this is really the case? Does scoring a buzzer beater mean your team is good — or just lucky?
 
 ## Key Concepts
 
@@ -104,11 +97,11 @@ example_function <- function() {
 ::: {.grid}
 
 ::: {.g-col-6}
-[⬅️ Episode 2](episode-002.qmd)
+[⬅️ Episode 3](episode-003.qmd)
 :::
 
 ::: {.g-col-6 .text-end}
-[➡️ Episode 4](episode-004.qmd)
+[➡️ Episode 5](episode-005.qmd)
 :::
 
 :::

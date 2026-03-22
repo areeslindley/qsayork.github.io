@@ -1,0 +1,123 @@
+---
+title: "Episode 6: Can Maths Predict Curling Games?"
+date: 2026-02-10
+description: "Curling is an incredible combination of skill and strategy. Can we use stats to understand it better, and to find out how to win?"
+categories: [Curling, Winter Olympics, Statistics, Binomial Regression]
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+**Published**: 2026-02-10  
+**Duration**: 31:16  
+**YouTube**: [Watch here](https://www.youtube.com/watch?v=H2lbiTPuMhc&t=698s)
+:::
+
+::: {.g-col-6}
+**Topics Covered**: Curling, Winter Olympics, Statistics, Binomial Regression
+:::
+
+:::
+
+## Video
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/H2lbiTPuMhc?si=kjh0dXylzGPrIWt7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Overview
+
+Welcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.
+
+Curling is an incredible combination of skill and strategy, and one of our favourite sports. Can we use stats to try to understand it better, and to find out how to win?
+
+---
+
+**Timestamps:**
+
+- 1:20 Introduction to Curling
+- 6:44 Curling World Championship Results
+- 11:55 Curling Accuracy Explained
+- 15:48 Accurate Teams Win Games
+- 19:45 How Accurate is each Curler?
+- 21:47 Can Accuracy Predict the Win? (Binomial Regression)
+
+**References:**
+
+- BBC explainer on Curling: <https://www.bbc.co.uk/sport/olympics/...>
+- Bruce Mouat's letter to his younger self: <https://www.bbc.co.uk/sport/articles/...>
+
+## Key Concepts
+
+::: {.callout-tip}
+## Curling
+\[Explanation of the sport and its scoring system\]
+:::
+
+::: {.callout-tip}
+## Binomial Regression
+\[Explanation of binomial regression and how it applies to predicting win probability from accuracy data\]
+:::
+
+## Resources & References
+
+- \[Link to paper/article 1\]
+- \[Link to code repository\]
+- \[Link to related resource\]
+
+## Transcript Highlights
+
+> "\[Notable quote from the video\]"
+
+\[Additional context or explanation\]
+
+---
+
+> "\[Another notable quote\]"
+
+\[Context\]
+
+## Code Examples
+
+::: {.panel-tabset}
+
+## Python
+
+```python
+# Example code from episode
+def example_function():
+    pass
+```
+
+## R
+
+```r
+# R equivalent if applicable
+example_function <- function() {
+  # code
+}
+```
+
+:::
+
+## Discussion
+
+\[Add any additional commentary, extended explanations, or connections to other episodes\]
+
+::: {.callout-note}
+## Related Episodes
+- \[Episode X: Related Topic\](episode-00X.qmd)
+- \[Episode Y: Follow-up Topic\](episode-00Y.qmd)
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+[⬅️ Episode 5](episode-005.qmd)
+:::
+
+::: {.g-col-6 .text-end}
+[🏠 Back to Home](../index.qmd)
+:::
+
+:::

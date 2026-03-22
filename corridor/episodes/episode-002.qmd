@@ -41,27 +41,6 @@ The BBC Sports Personality of the Year award compares athletes & competitors fro
 \[Explanation of the concept\]
 :::
 
-## Interactive Demonstration
-
-\[If applicable, add interactive visualisations here\]
-
-```{python}
-#| echo: false
-#| eval: false
-
-import plotly.express as px
-import pandas as pd
-
-# Replace with actual content from episode
-df = pd.DataFrame({
-    'x': [1, 2, 3, 4, 5],
-    'y': [2, 4, 1, 5, 3]
-})
-
-fig = px.line(df, x='x', y='y', title='Example Interactive Plot')
-fig.show()
-```
-
 ## Resources & References
 
 - \[Link to paper/article 1\]
