@@ -28,7 +28,7 @@ website:
         text: Publications
       - href: news/index.qmd
         text: News
-      - href: https://www.youtube.com/@CorridorOfUncertainty
+      - href: corridor/index.html
         text: "Corridor of Uncertainty"
 
 format:

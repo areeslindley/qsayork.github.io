@@ -1,0 +1,12 @@
+---
+title: "Episodes"
+listing:
+  contents: "*.qmd"
+  exclude:
+    - "index.qmd"
+  sort: "date asc"
+  type: table
+  fields: [title, date, description]
+---
+
+All episodes from The Corridor of Uncertainty podcast.

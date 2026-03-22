@@ -1,0 +1,72 @@
+---
+title: "The Corridor of Uncertainty"
+---
+
+Welcome to the **Corridor of Uncertainty**, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.
+
+This site provides an organised archive of all episodes, with enhanced content including:
+
+- Episode summaries and overviews
+- Interactive visualisations and code examples
+- Supplementary resources and links
+- Technical deep-dives
+
+::: {.grid}
+
+::: {.g-col-6}
+::: {.card .h-100}
+::: {.card-body}
+### 📺 Watch on YouTube
+[Visit the official YouTube channel](https://www.youtube.com/@CorridorOfUncertainty)
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.card .h-100}
+::: {.card-body}
+### 📖 Browse Episodes
+[Start with Episode 1](episodes/episode-001.qmd)
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.card .h-100}
+::: {.card-body}
+### ℹ️ About
+[Learn more about the channel](about.qmd)
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.card .h-100}
+::: {.card-body}
+### 🔮 Upcoming
+[See what's coming next](upcoming.qmd)
+:::
+:::
+:::
+
+:::
+
+## Latest Episodes
+
+::: {.callout-tip}
+## Episode 7: \[Title TBD\]
+*Published: \[Date TBD\]*
+
+\[Brief description\]
+
+[Watch on YouTube](https://youtube.com/...) | [Read More](episodes/episode-006.qmd)
+:::
+
+::: {.callout-note}
+## Episode 6: Can Maths Predict Curling Games?
+*Published: \[Date TBD\]*
+
+\[Brief description\]
+
+[Watch on YouTube](https://youtu.be/H2lbiTPuMhc?si=dRs9z6LJIOZUXuI-) | [Read More](episodes/episode-006.qmd)
+:::

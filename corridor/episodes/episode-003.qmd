@@ -1,0 +1,135 @@
+---
+title: "Episode 3: The CoU Sports Statistic of the Year 2025"
+date: 2025-12-24
+description: "We debate what should be crowned the number of the sporting year, from record viewing figures to outstanding individual performances."
+categories: [Maths, Statistics, SSOTY]
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+**Published**: 2025-12-24  
+**Duration**: 47:27  
+**YouTube**: [Watch here](https://www.youtube.com/watch?v=L4TlGfVxhFg)
+:::
+
+::: {.g-col-6}
+**Topics Covered**: Maths, Statistics, SSOTY
+:::
+
+:::
+
+## Video
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/L4TlGfVxhFg?si=P4_DtVJUEWc2ebNT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Overview
+
+Welcome to the Corridor of Uncertainty, a podcast at the intersection of maths & sport. Hosted by Dr Jess Hargreaves & Dr Rich Bingham, two mathematicians at the University of York.
+
+It's the most wonderful time of the year — when we debate what should be crowned the number of the sporting year. We present our candidates to you, from record viewing figures to outstanding individual performances. But what do you think should be the CoU Sports Statistic of the Year 2025? Have your say in the comments!
+
+---
+
+Some interesting links:
+
+- <https://rss.org.uk/news-publication/n...>
+- <https://www.bbc.co.uk/sport/rugby-uni...>
+
+## Key Concepts
+
+::: {.callout-tip}
+## \[Key Concept 1\]
+\[Explanation of the concept\]
+:::
+
+::: {.callout-tip}
+## \[Key Concept 2\]
+\[Explanation of the concept\]
+:::
+
+## Interactive Demonstration
+
+\[If applicable, add interactive visualisations here\]
+
+```{python}
+#| echo: false
+#| eval: false
+
+import plotly.express as px
+import pandas as pd
+
+# Replace with actual content from episode
+df = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [2, 4, 1, 5, 3]
+})
+
+fig = px.line(df, x='x', y='y', title='Example Interactive Plot')
+fig.show()
+```
+
+## Resources & References
+
+- \[Link to paper/article 1\]
+- \[Link to code repository\]
+- \[Link to related resource\]
+
+## Transcript Highlights
+
+> "\[Notable quote from the video\]"
+
+\[Additional context or explanation\]
+
+---
+
+> "\[Another notable quote\]"
+
+\[Context\]
+
+## Code Examples
+
+::: {.panel-tabset}
+
+## Python
+
+```python
+# Example code from episode
+def example_function():
+    pass
+```
+
+## R
+
+```r
+# R equivalent if applicable
+example_function <- function() {
+  # code
+}
+```
+
+:::
+
+## Discussion
+
+\[Add any additional commentary, extended explanations, or connections to other episodes\]
+
+::: {.callout-note}
+## Related Episodes
+- \[Episode X: Related Topic\](episode-00X.qmd)
+- \[Episode Y: Follow-up Topic\](episode-00Y.qmd)
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+[⬅️ Episode 2](episode-002.qmd)
+:::
+
+::: {.g-col-6 .text-end}
+[➡️ Episode 4](episode-004.qmd)
+:::
+
+:::
