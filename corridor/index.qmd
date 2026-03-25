@@ -2,14 +2,6 @@
 title: ""
 page-layout: full
 toc: false
-listing:
-  - id: latest-episodes
-    contents: "episodes/episode-*.qmd"
-    sort: "date desc"
-    type: grid
-    grid-columns: 3
-    max-items: 3
-    fields: [title, date, description]
 ---
 
 ```{=html}
@@ -169,41 +161,43 @@ listing:
 <!-- Latest Episodes -->
 <p class="cou-section-title">Latest Episodes</p>
 
-```{=html}
-<p class="cou-section-title">Latest Episodes</p>
-```
-
-:::{#latest-episodes}
-:::
-```{=html}
-<br>
-<a class="episode-link" href="episodes/index.html">View all episodes →</a>
-```
-
 <div class="episode-card">
-  <div class="episode-number">Episode 5</div>
-  <div class="episode-title">Best January Transfer Signings Ever? — Can Stats Decide?</div>
-  <div class="episode-meta">📅 27 Jan 2026 &nbsp;·&nbsp; ⏱ 33:45</div>
-  <div class="episode-desc">Vidic vs van Dijk — who made the bigger impact? We apply Elo ratings and changepoint analysis to find out who truly transformed their club after a January move.</div>
+  <div class="episode-number">Episode 9</div>
+  <div class="episode-title">Have the Dodgers Broken Moneyball?</div>
+  <div class="episode-meta">📅 24 Mar 2026 &nbsp;·&nbsp; ⏱ ~41:00</div>
+  <div class="episode-desc">Exploring the origins of Moneyball, myth-busting common misconceptions, and examining how MLB teams use mathematics for competitive advantage.</div>
   <div class="episode-tags">
-    <span>Football</span><span>Premier League</span><span>Elo</span><span>Changepoint Analysis</span>
+    <span>Baseball</span><span>Moneyball</span><span>Sabermetrics</span><span>Player Recruitment</span>
   </div>
-  <a class="episode-link" href="episodes/episode-005.html">Read more →</a>
+  <a class="episode-link" href="episodes/episode-009.html">Read more →</a>
   &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=fEXpzZSyGoI" target="_blank">Watch on YouTube ↗</a>
+  <a class="episode-link" href="https://www.youtube.com/watch?v=w43yhwejkn8" target="_blank">Watch on YouTube ↗</a>
 </div>
 
 <div class="episode-card">
-  <div class="episode-number">Episode 4</div>
-  <div class="episode-title">How Random is the NBA? — Can Statistics Prove Basketball is a Bad Sport?</div>
-  <div class="episode-meta">📅 13 Jan 2026 &nbsp;·&nbsp; ⏱ 29:15</div>
-  <div class="episode-desc">Both teams score around 100 points, and games are often decided by the final possession. Does that mean the winner is essentially a 50/50 coin flip?</div>
+  <div class="episode-number">Episode 8</div>
+  <div class="episode-title">Curling by Numbers: Why GB Won Silver</div>
+  <div class="episode-meta">📅 25 Mar 2026 &nbsp;·&nbsp; ⏱ ~25:00</div>
+  <div class="episode-desc">Analysing Team GB's silver medal performance at the 2026 Winter Olympics curling final against Canada through statistics and probability.</div>
   <div class="episode-tags">
-    <span>Basketball</span><span>NBA</span><span>Randomness</span>
+    <span>Curling</span><span>Winter Olympics</span><span>Game Theory</span><span>Statistical Analysis</span>
   </div>
-  <a class="episode-link" href="episodes/episode-004.html">Read more →</a>
+  <a class="episode-link" href="episodes/episode-008.html">Read more →</a>
   &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=sBAKID4RidY" target="_blank">Watch on YouTube ↗</a>
+  <a class="episode-link" href="https://www.youtube.com/watch?v=noA2d75QkEM" target="_blank">Watch on YouTube ↗</a>
+</div>
+
+<div class="episode-card">
+  <div class="episode-number">Episode 7</div>
+  <div class="episode-title">Why Did Man City Sign Semenyo?</div>
+  <div class="episode-meta">📅 25 Mar 2025 &nbsp;·&nbsp; ⏱ ~15:00</div>
+  <div class="episode-desc">Exploring how football clubs use data analytics to identify and sign players, with Manchester City's signing of Antoine Semenyo as a case study.</div>
+  <div class="episode-tags">
+    <span>Football</span><span>Player Recruitment</span><span>Data Analytics</span><span>Transfer Market</span>
+  </div>
+  <a class="episode-link" href="episodes/episode-007.html">Read more →</a>
+  &nbsp;&nbsp;
+  <a class="episode-link" href="https://www.youtube.com/watch?v=-v1nLR34YGA&t=303s" target="_blank">Watch on YouTube ↗</a>
 </div>
 
 <br>
