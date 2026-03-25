@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/qsay_logo_q.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -43,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bb669177a40749fcf46b1d713d5ae2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-66f37b53e8697c84006a0889dc9ee605.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-episodes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-episodes'] = new List('listing-latest-episodes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
 
@@ -293,78 +324,180 @@ ul.task-list li input[type="checkbox"] {
 <!-- Latest Episodes -->
 <p class="cou-section-title">Latest Episodes</p>
 
-<div class="episode-card">
-  <div class="episode-number">Episode 6</div>
-  <div class="episode-title">Can Maths Predict Curling Games?</div>
-  <div class="episode-meta">📅 10 Feb 2026 &nbsp;·&nbsp; ⏱ 31:16</div>
-  <div class="episode-desc">Curling is an incredible combination of skill and strategy. We use binomial regression to quantify accuracy and predict match outcomes — ahead of Milan Cortina 2026.</div>
-  <div class="episode-tags">
-    <span>Curling</span><span>Winter Olympics</span><span>Binomial Regression</span>
-  </div>
-  <a class="episode-link" href="episodes/episode-006.html">Read more →</a>
-  &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=H2lbiTPuMhc&amp;t=698s" target="_blank">Watch on YouTube ↗</a>
-</div>
+```{=html}
+<p class="cou-section-title">Latest Episodes</p>
+<div id="listing-latest-episodes" class="quarto-listing quarto-listing-container-grid">
 
-<div class="episode-card">
-  <div class="episode-number">Episode 5</div>
-  <div class="episode-title">Best January Transfer Signings Ever? — Can Stats Decide?</div>
-  <div class="episode-meta">📅 27 Jan 2026 &nbsp;·&nbsp; ⏱ 33:45</div>
-  <div class="episode-desc">Vidic vs van Dijk — who made the bigger impact? We apply Elo ratings and changepoint analysis to find out who truly transformed their club after a January move.</div>
-  <div class="episode-tags">
-    <span>Football</span><span>Premier League</span><span>Elo</span><span>Changepoint Analysis</span>
-  </div>
-  <a class="episode-link" href="episodes/episode-005.html">Read more →</a>
-  &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=fEXpzZSyGoI" target="_blank">Watch on YouTube ↗</a>
 </div>
-
-<div class="episode-card">
-  <div class="episode-number">Episode 4</div>
-  <div class="episode-title">How Random is the NBA? — Can Statistics Prove Basketball is a Bad Sport?</div>
-  <div class="episode-meta">📅 13 Jan 2026 &nbsp;·&nbsp; ⏱ 29:15</div>
-  <div class="episode-desc">Both teams score around 100 points, and games are often decided by the final possession. Does that mean the winner is essentially a 50/50 coin flip?</div>
-  <div class="episode-tags">
-    <span>Basketball</span><span>NBA</span><span>Randomness</span>
-  </div>
-  <a class="episode-link" href="episodes/episode-004.html">Read more →</a>
-  &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=sBAKID4RidY" target="_blank">Watch on YouTube ↗</a>
-</div>
-
 <br>
 <a class="episode-link" href="episodes/index.html">View all episodes →</a>
-
+<div class="episode-card">
+<div class="episode-number">
+Episode 5
+</div>
+<div class="episode-title">
+Best January Transfer Signings Ever? — Can Stats Decide?
+</div>
+<div class="episode-meta">
+📅 27 Jan 2026 &nbsp;·&nbsp; ⏱ 33:45
+</div>
+<div class="episode-desc">
+Vidic vs van Dijk — who made the bigger impact? We apply Elo ratings and changepoint analysis to find out who truly transformed their club after a January move.
+</div>
+<div class="episode-tags">
+<pre><code>&lt;span&gt;Football&lt;/span&gt;&lt;span&gt;Premier League&lt;/span&gt;&lt;span&gt;Elo&lt;/span&gt;&lt;span&gt;Changepoint Analysis&lt;/span&gt;</code></pre>
+</div>
+<p><a class="episode-link" href="episodes/episode-005.html">Read more →</a> &nbsp;&nbsp; <a class="episode-link" href="https://www.youtube.com/watch?v=fEXpzZSyGoI" target="_blank">Watch on YouTube ↗</a></p>
+</div>
+<div class="episode-card">
+<div class="episode-number">
+Episode 4
+</div>
+<div class="episode-title">
+How Random is the NBA? — Can Statistics Prove Basketball is a Bad Sport?
+</div>
+<div class="episode-meta">
+📅 13 Jan 2026 &nbsp;·&nbsp; ⏱ 29:15
+</div>
+<div class="episode-desc">
+Both teams score around 100 points, and games are often decided by the final possession. Does that mean the winner is essentially a 50/50 coin flip?
+</div>
+<div class="episode-tags">
+<pre><code>&lt;span&gt;Basketball&lt;/span&gt;&lt;span&gt;NBA&lt;/span&gt;&lt;span&gt;Randomness&lt;/span&gt;</code></pre>
+</div>
+<p><a class="episode-link" href="episodes/episode-004.html">Read more →</a> &nbsp;&nbsp; <a class="episode-link" href="https://www.youtube.com/watch?v=sBAKID4RidY" target="_blank">Watch on YouTube ↗</a></p>
+</div>
+<p><br> <a class="episode-link" href="episodes/index.html">View all episodes →</a></p>
 <!-- Navigation -->
 <br><br>
-<p class="cou-section-title">Explore</p>
-
+<p class="cou-section-title">
+Explore
+</p>
 <div class="nav-cards">
-  <a class="nav-card" href="episodes/index.html">
-    <div class="nav-icon">📋</div>
-    <div class="nav-label">All Episodes</div>
-    <div class="nav-desc">Full episode archive</div>
-  </a>
-  <a class="nav-card" href="about.html">
-    <div class="nav-icon">ℹ️</div>
-    <div class="nav-label">About</div>
-    <div class="nav-desc">About the channel and team</div>
-  </a>
-  <a class="nav-card" href="upcoming.html">
-    <div class="nav-icon">🔮</div>
-    <div class="nav-label">Upcoming</div>
-    <div class="nav-desc">What's coming next</div>
-  </a>
-  <a class="nav-card" href="https://www.youtube.com/@CorridorOfUncertainty" target="_blank">
-    <div class="nav-icon">▶️</div>
-    <div class="nav-label">YouTube</div>
-    <div class="nav-desc">Watch on YouTube</div>
-  </a>
+<a class="nav-card" href="episodes/index.html">
+<div class="nav-icon">
+📋
 </div>
+<pre><code>&lt;div class="nav-label"&gt;All Episodes&lt;/div&gt;
+&lt;div class="nav-desc"&gt;Full episode archive&lt;/div&gt;</code></pre>
+</a> <a class="nav-card" href="about.html">
+<div class="nav-icon">
+ℹ️
+</div>
+<pre><code>&lt;div class="nav-label"&gt;About&lt;/div&gt;
+&lt;div class="nav-desc"&gt;About the channel and team&lt;/div&gt;</code></pre>
+</a> <a class="nav-card" href="upcoming.html">
+<div class="nav-icon">
+🔮
+</div>
+<pre><code>&lt;div class="nav-label"&gt;Upcoming&lt;/div&gt;
+&lt;div class="nav-desc"&gt;What's coming next&lt;/div&gt;</code></pre>
+</a> <a class="nav-card" href="https://www.youtube.com/@CorridorOfUncertainty" target="_blank">
+<div class="nav-icon">
+▶️
+</div>
+<pre><code>&lt;div class="nav-label"&gt;YouTube&lt;/div&gt;
+&lt;div class="nav-desc"&gt;Watch on YouTube&lt;/div&gt;</code></pre>
+</a><p><a class="nav-card" href="https://www.youtube.com/@CorridorOfUncertainty" target="_blank"></a></p>
+</div>
+<pre><code>
 
 
 
-</main> <!-- /main -->
+:::{#quarto-navigation-envelope .hidden}
+[QSAY]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl"}
+[QSAY]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU="}
+[Home]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6SG9tZQ=="}
+[/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw="}
+[People]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UGVvcGxl"}
+[/people/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L3Blb3BsZS9pbmRleC5odG1s"}
+[Blog]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6QmxvZw=="}
+[/posts/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2luZGV4Lmh0bWw="}
+[Publications]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UHVibGljYXRpb25z"}
+[/publications/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L3B1YmxpY2F0aW9ucy9pbmRleC5odG1s"}
+[News]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6TmV3cw=="}
+[/news/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L25ld3MvaW5kZXguaHRtbA=="}
+[Corridor of Uncertainty]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6Q29ycmlkb3Igb2YgVW5jZXJ0YWludHk="}
+[/corridor/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L2NvcnJpZG9yL2luZGV4Lmh0bWw="}
+
+:::{.hidden .quarto-markdown-envelope-contents render-id="Zm9vdGVyLWNlbnRlcg=="}
+2026 &amp;middot; Made with ![](https://www.r-project.org/Rlogo.png){width=20px} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+:::
+
+:::
+
+
+:::{#quarto-listing-pipeline .hidden}
+[$e = mC^2$]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWVuYWJsZS1tYXRoLWlubGluZQ=="}
+
+:::{.hidden .quarto-markdown-envelope-contents render-id="cGlwZWxpbmUtbGlzdGluZy1sYXRlc3QtZXBpc29kZXM="}
+
+
+::: {.list .grid .quarto-listing-cols-3}
+
+::: {.g-col-1 data-index='0' data-categories='QmFza2V0YmFsbCUyQ1JhbmRvbW5lc3MlMkNOQkElMkNXaW4lMjBQcm9iYWJpbGl0eSUyQ0dhbWUlMjBUaGVvcnk=' data-listing-date-sort='1774396800000' data-listing-file-modified-sort='1774474165001' data-listing-date-modified-sort='NaN' data-listing-reading-time-sort='4' data-listing-word-count-sort='687' }
+
+```{=html}
+&lt;a href="/corridor/episodes/episode-004.qmd" class="quarto-grid-link"&gt;
+&lt;div class="quarto-grid-item card h-100 card-left"&gt;</code></pre>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Episode 4: How Random is the NBA? Can Statistics Prove That Basketball is a Bad Sport?
+</h5>
+<div class="card-text listing-description delink">
+<p>Rich attempts to statistically prove why basketball is a bad sport by analysing buzzer beaters, scoring frequency, and the role of randomness in determining game outcomes.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 2026
+</div>
+</div>
+</div>
+</main></div>
+<p>:::</p>
+<div class="g-col-1" data-index="1" data-categories="Q3VybGluZyUyQ1dpbnRlciUyME9seW1waWNzJTJDR2FtZSUyMFRoZW9yeSUyQ1N0cmF0ZWd5" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1774474165001" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="649">
+<a href="../corridor/episodes/episode-006.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Episode 6: How to Win at Curling (Using Maths)
+</h5>
+<div class="card-text listing-description delink">
+<p>Rich and Jess explore the statistical strategies behind curling ahead of the Winter Olympics 2026, analysing World Championship data to understand what makes teams…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Q3VybGluZyUyQ1dpbnRlciUyME9seW1waWNzJTJDR2FtZSUyMFRoZW9yeSUyQ1N0YXRpc3RpY2FsJTIwQW5hbHlzaXM=" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1774474165001" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="683">
+<a href="../corridor/episodes/episode-008.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Episode 8: Curling by Numbers: Why GB Won Silver
+</h5>
+<div class="card-text listing-description delink">
+<p>Analysing Team GB’s silver medal performance at the 2026 Winter Olympics curling final against Canada through statistics and probability.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<p>:::</p>
+<div class="listing-no-matching d-none">No matching items</div>
+<p>:::</p>
+<p>:::</p>
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -770,15 +903,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>2026 · Made with <img src="https://www.r-project.org/Rlogo.png" class="img-fluid" width="20"> and <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
-</div>
+      <div class="footer-contents">2026 · Made with ![](https://www.r-project.org/Rlogo.png){width=20px} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)</div>  
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
