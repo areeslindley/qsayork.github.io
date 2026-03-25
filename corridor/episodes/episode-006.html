@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Curling is an incredible combination of skill and strategy. Can we use stats to understand it better, and to find out how to win?">
+<meta name="description" content="Rich and Jess explore the statistical strategies behind curling ahead of the Winter Olympics 2026, analysing World Championship data to understand what makes teams successful.">
 
-<title>Episode 6: Can Maths Predict Curling Games? – QSAY</title>
+<title>Episode 6: How to Win at Curling (Using Maths) – QSAY</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -79,7 +44,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-66f37b53e8697c84006a0889dc9ee605.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bb669177a40749fcf46b1d713d5ae2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +141,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
   <li><a href="#resources-references" id="toc-resources-references" class="nav-link" data-scroll-target="#resources-references">Resources &amp; References</a></li>
   <li><a href="#transcript-highlights" id="toc-transcript-highlights" class="nav-link" data-scroll-target="#transcript-highlights">Transcript Highlights</a></li>
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
   </ul>
 </nav>
@@ -186,18 +150,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Episode 6: Can Maths Predict Curling Games?</h1>
+<h1 class="title">Episode 6: How to Win at Curling (Using Maths)</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curling</div>
     <div class="quarto-category">Winter Olympics</div>
-    <div class="quarto-category">Statistics</div>
-    <div class="quarto-category">Binomial Regression</div>
+    <div class="quarto-category">Game Theory</div>
+    <div class="quarto-category">Strategy</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Curling is an incredible combination of skill and strategy. Can we use stats to understand it better, and to find out how to win?
+    Rich and Jess explore the statistical strategies behind curling ahead of the Winter Olympics 2026, analysing World Championship data to understand what makes teams successful.
   </div>
 </div>
 
@@ -208,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Feb 2026</p>
+      <p class="date">Mar 2026</p>
     </div>
   </div>
   
@@ -222,37 +186,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="grid">
 <div class="g-col-6">
-<p><strong>Published</strong>: 2026-02-10<br>
-<strong>Duration</strong>: 31:16<br>
+<p><strong>Published</strong>: 25 March 2026<br>
+<strong>Duration</strong>: ~12:00<br>
 <strong>YouTube</strong>: <a href="https://www.youtube.com/watch?v=H2lbiTPuMhc&amp;t=698s">Watch here</a></p>
 </div>
 <div class="g-col-6">
-<p><strong>Topics Covered</strong>: Curling, Winter Olympics, Statistics, Binomial Regression</p>
+<p><strong>Topics Covered</strong>: Curling, Winter Olympics 2026, Strategic Scoring, World Championship Analysis</p>
 </div>
 </div>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/H2lbiTPuMhc?si=kjh0dXylzGPrIWt7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/H2lbiTPuMhc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Welcome to the Corridor of Uncertainty, a podcast at the intersection of maths &amp; sport. Hosted by Dr Jess Hargreaves &amp; Dr Rich Bingham, two mathematicians at the University of York.</p>
-<p>Curling is an incredible combination of skill and strategy, and one of our favourite sports. Can we use stats to try to understand it better, and to find out how to win?</p>
+<p>In this episode, Rich and Jess dive into the fascinating world of curling ahead of the Winter Olympics 2026, exploring why they consider it “the best sport” and breaking down its unique scoring mechanics. Using data from World Championship competitions, they analyse which nations dominate the sport and examine the strategic importance of the “hammer” - the crucial last stone advantage. The episode combines an introduction to curling’s rules with statistical analysis of 336 games across four championships.</p>
 <hr>
 <p><strong>Timestamps:</strong></p>
 <ul>
-<li>1:20 Introduction to Curling</li>
-<li>6:44 Curling World Championship Results</li>
-<li>11:55 Curling Accuracy Explained</li>
-<li>15:48 Accurate Teams Win Games</li>
-<li>19:45 How Accurate is each Curler?</li>
-<li>21:47 Can Accuracy Predict the Win? (Binomial Regression)</li>
+<li>[00:00] Introduction and Winter Olympics preview</li>
+<li>[00:17] Welcome and podcast introduction</li>
+<li>[00:34] Why curling is “the best sport”</li>
+<li>[01:22] Curling basics explained</li>
+<li>[02:14] Scoring system and the “house”</li>
+<li>[03:07] Comparison to bowls and other target sports</li>
 </ul>
 <p><strong>References:</strong></p>
 <ul>
-<li>BBC explainer on Curling: <a href="https://www.bbc.co.uk/sport/olympics/..." class="uri">https://www.bbc.co.uk/sport/olympics/...</a></li>
-<li>Bruce Mouat’s letter to his younger self: <a href="https://www.bbc.co.uk/sport/articles/..." class="uri">https://www.bbc.co.uk/sport/articles/...</a></li>
+<li>Curl It (curling statistics website)</li>
+<li>World Curling Federation results</li>
 </ul>
 </section>
 <section id="key-concepts" class="level2">
@@ -263,11 +226,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Curling
+<span class="screen-reader-only">Tip</span>The Hammer Advantage
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>[Explanation of the sport and its scoring system]</p>
+<p>In curling, the team that throws the final stone (the “hammer”) has a significant strategic advantage, as they can guarantee at least one point by placing their stone closest to the centre. Teams often deliberately “blank” ends (score zero) to retain the hammer for crucial later ends, creating a fascinating tactical dynamic around when to score and when to preserve this advantage.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -276,56 +239,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Binomial Regression
+<span class="screen-reader-only">Tip</span>Cumulative Scoring System
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>[Explanation of binomial regression and how it applies to predicting win probability from accuracy data]</p>
+<p>Unlike many sports with fixed point values, curling uses a proximity-based scoring system where only the team closest to the centre scores, and they continue accumulating points for each consecutive stone closer than any opponent’s stone. This creates strategic scenarios where forcing your opponent to score just one point (a “steal”) can be advantageous.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Round Robin Tournament Analysis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The episode analyses 336 games (84 per championship) from the 2024-25 World Championships, using round robin results to fairly compare team performance across the 13 competing nations while excluding knockout stages where not all teams participate equally.</p>
 </div>
 </div>
 </section>
 <section id="resources-references" class="level2">
 <h2 class="anchored" data-anchor-id="resources-references">Resources &amp; References</h2>
 <ul>
-<li>[Link to paper/article 1]</li>
-<li>[Link to code repository]</li>
-<li>[Link to related resource]</li>
+<li>Curl It - Curling statistics database</li>
+<li>World Curling Federation</li>
+<li>Winter Olympics 2026</li>
 </ul>
 </section>
 <section id="transcript-highlights" class="level2">
 <h2 class="anchored" data-anchor-id="transcript-highlights">Transcript Highlights</h2>
 <blockquote class="blockquote">
-<p>“[Notable quote from the video]”</p>
+<p>“People refer to it as chess on ice because it’s so strategic… it’s like chess on ice except for the fact that putting the pieces on the board was actually also really hard.”</p>
 </blockquote>
-<p>[Additional context or explanation]</p>
+<p>Rich captures the dual challenge of curling perfectly - it combines the strategic depth of chess with the physical precision of darts, where executing your strategy is as difficult as formulating it.</p>
 <hr>
 <blockquote class="blockquote">
-<p>“[Another notable quote]”</p>
+<p>“If you score using the hammer, you give it up for the next go. So that dynamic of keeping and if you don’t score, if there’s no score on the end, what’s called a blank end, then you keep the hammer for the next go.”</p>
 </blockquote>
-<p>[Context]</p>
-</section>
-<section id="code-examples" class="level2">
-<h2 class="anchored" data-anchor-id="code-examples">Code Examples</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">R</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example code from episode</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> example_function():</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># R equivalent if applicable</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>example_function <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># code</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div>
-</div>
+<p>This explains the counterintuitive tactical element where teams sometimes deliberately avoid scoring to maintain strategic advantage for later ends.</p>
+<hr>
+<blockquote class="blockquote">
+<p>“It’s the only sport where you can impact what happens to it when it’s left your hand.”</p>
+</blockquote>
+<p>Jess highlights curling’s unique characteristic - the sweeping mechanism that allows players to influence the stone’s trajectory after release.</p>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<p>[Add any additional commentary, extended explanations, or connections to other episodes]</p>
+<p>Curling represents a fascinating case study in sports analytics because it combines deterministic strategy (like chess) with stochastic execution (like darts or golf). The hammer advantage creates a game-theoretic element where the optimal strategy isn’t always to maximise immediate points - sometimes blanking an end provides greater expected value for the match outcome. This mirrors concepts in baseball analytics around “playing for one run” versus “playing for a big inning.”</p>
+<p>The dominance of nations like Canada and Switzerland in the World Championship data raises interesting questions about the development pathways and infrastructure that create curling powerhouses. The episode’s analysis of 336 games provides a solid foundation for understanding team performance, though future episodes might explore individual shot success rates or the impact of specific tactical decisions on win probability.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -337,8 +300,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>[Episode X: Related Topic](episode-00X.qmd)</li>
-<li>[Episode Y: Follow-up Topic](episode-00Y.qmd)</li>
+<li>Episode 5 - Previous episode on sports strategy</li>
 </ul>
 </div>
 </div>
@@ -348,7 +310,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="../../corridor/episodes/episode-005.html">⬅️ Episode 5</a></p>
 </div>
 <div class="g-col-6 text-end">
-<p><a href="../../corridor/index.html">🏠 Back to Home</a></p>
+<p><a href="../../corridor/episodes/episode-007.html">➡️ Episode 7</a></p>
 </div>
 </div>
 

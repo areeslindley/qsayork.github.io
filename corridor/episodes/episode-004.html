@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Is the NBA just random? Basketball games are often decided by the last shot — does this mean the outcome is essentially a 50/50 coin flip?">
+<meta name="description" content="Rich attempts to statistically prove why basketball is a bad sport by analysing buzzer beaters, scoring frequency, and the role of randomness in determining game outcomes.">
 
-<title>Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport? – QSAY</title>
+<title>Episode 4: How Random is the NBA? Can Statistics Prove That Basketball is a Bad Sport? – QSAY</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -79,7 +44,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-66f37b53e8697c84006a0889dc9ee605.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bb669177a40749fcf46b1d713d5ae2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -176,7 +141,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
   <li><a href="#resources-references" id="toc-resources-references" class="nav-link" data-scroll-target="#resources-references">Resources &amp; References</a></li>
   <li><a href="#transcript-highlights" id="toc-transcript-highlights" class="nav-link" data-scroll-target="#transcript-highlights">Transcript Highlights</a></li>
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
   </ul>
 </nav>
@@ -186,18 +150,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Episode 4: How random is the NBA? — Can statistics prove that basketball is a bad sport?</h1>
+<h1 class="title">Episode 4: How Random is the NBA? Can Statistics Prove That Basketball is a Bad Sport?</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Maths</div>
-    <div class="quarto-category">Statistics</div>
     <div class="quarto-category">Basketball</div>
+    <div class="quarto-category">Randomness</div>
     <div class="quarto-category">NBA</div>
+    <div class="quarto-category">Win Probability</div>
+    <div class="quarto-category">Game Theory</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Is the NBA just random? Basketball games are often decided by the last shot — does this mean the outcome is essentially a 50/50 coin flip?
+    Rich attempts to statistically prove why basketball is a bad sport by analysing buzzer beaters, scoring frequency, and the role of randomness in determining game outcomes.
   </div>
 </div>
 
@@ -208,7 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Jan 2026</p>
+      <p class="date">Mar 2026</p>
     </div>
   </div>
   
@@ -222,23 +187,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="grid">
 <div class="g-col-6">
-<p><strong>Published</strong>: 2026-01-13<br>
-<strong>Duration</strong>: 29:15<br>
-<strong>YouTube</strong>: <a href="https://www.youtube.com/watch?v=sBAKID4RidY">Watch here</a></p>
+<p><strong>Published</strong>: 25 March 2026<br>
+<strong>Duration</strong>: ~15:00<br>
+<strong>YouTube</strong>: <a href="https://www.youtube.com/watch?v=sBAKID4RidY&amp;t=4s">Watch here</a></p>
 </div>
 <div class="g-col-6">
-<p><strong>Topics Covered</strong>: Maths, Statistics, Basketball, NBA</p>
+<p><strong>Topics Covered</strong>: Basketball, Buzzer Beaters, Randomness in Sport, Win Probability, NBA Statistics</p>
 </div>
 </div>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/sBAKID4RidY?si=oeZ7kVzfHtFawyUZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/sBAKID4RidY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Welcome to the Corridor of Uncertainty, a podcast at the intersection of maths &amp; sport. Hosted by Dr Jess Hargreaves &amp; Dr Rich Bingham, two mathematicians at the University of York.</p>
-<p>Is the NBA just random? Basketball games are often decided by the last shot, but both teams usually score around 100 points. Does this mean that the outcome is just decided by whoever had the ball last? This would mean the winner is basically decided on a 50/50 chance. Can stats tell us if this is really the case? Does scoring a buzzer beater mean your team is good — or just lucky?</p>
+<p>Rich presents his case for why basketball might be a “bad sport” from a statistical perspective, focusing on the high frequency of scoring events and how often games are decided by the final basket. Using nine seasons of NBA data (over 10,700 games), he explores whether the prevalence of last-minute turnarounds suggests an element of randomness in determining winners. Jess pushes back with insights about strategic clock management and the skill involved in controlling those crucial final seconds.</p>
+<hr>
+<p><strong>Timestamps:</strong></p>
+<ul>
+<li>[00:10] Introduction and episode overview</li>
+<li>[00:31] Rich introduces his controversial thesis on basketball</li>
+<li>[01:24] The buzzer beater problem explained</li>
+<li>[02:16] Indiana Pacers 2024-25 season as inspiration</li>
+<li>[02:41] Win probability graphs and how they’re calculated</li>
+<li>[03:24] Data methodology: hoopR package and 9 seasons of NBA data</li>
+</ul>
+<p><strong>References:</strong></p>
+<ul>
+<li>hoopR package for R (basketball data analysis)</li>
+<li>Indiana Pacers 2024-25 season</li>
+<li>Michael Jordan’s “The Shot”</li>
+</ul>
 </section>
 <section id="key-concepts" class="level2">
 <h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
@@ -248,11 +228,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>[Key Concept 1]
+<span class="screen-reader-only">Tip</span>Scoring Frequency and Game Outcomes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>[Explanation of the concept]</p>
+<p>In NBA basketball, teams combined score an average of 116 times per game, yet 10% of games are decided by the final scoring event. This raises philosophical questions about whether basketball truly tests which team can dominate over a full game, or whether timing and the final possession matter disproportionately.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -261,56 +241,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>[Key Concept 2]
+<span class="screen-reader-only">Tip</span>Win Probability Models
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>[Explanation of the concept]</p>
+<p>Sports broadcasts often display real-time win probabilities (e.g., “99.7% loss probability”), but the methodology behind these calculations is rarely transparent. While used to emphasise dramatic moments, these models raise questions about how we quantify uncertainty in live sporting events.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Optimal Randomness in Sport
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The episode explores the philosophical question of how much randomness is desirable in sport. Too little randomness (like chess) means the better player always wins, removing excitement. Too much randomness undermines the contest as a test of skill. Basketball’s high scoring frequency may push it towards more randomness than other sports.</p>
 </div>
 </div>
 </section>
 <section id="resources-references" class="level2">
 <h2 class="anchored" data-anchor-id="resources-references">Resources &amp; References</h2>
 <ul>
-<li>[Link to paper/article 1]</li>
-<li>[Link to code repository]</li>
-<li>[Link to related resource]</li>
+<li>hoopR: R package for NBA data analysis</li>
+<li>NBA regular season data (2016-17 to 2024-25 seasons)</li>
+<li>10,740 games analysed (excluding postseason and in-season tournaments)</li>
 </ul>
 </section>
 <section id="transcript-highlights" class="level2">
 <h2 class="anchored" data-anchor-id="transcript-highlights">Transcript Highlights</h2>
 <blockquote class="blockquote">
-<p>“[Notable quote from the video]”</p>
+<p>“So is the sport of basketball a test of one team’s ability to score more points and to dominate in a game, or is it about timing?”</p>
 </blockquote>
-<p>[Additional context or explanation]</p>
+<p>Rich poses the central philosophical question of the episode, challenging whether basketball’s high-scoring nature undermines its function as a fair test of team quality.</p>
 <hr>
 <blockquote class="blockquote">
-<p>“[Another notable quote]”</p>
+<p>“It had never really occurred to me that it was random… I was like no, Leeds United are the best team in the world and they play the game and the right person wins.”</p>
 </blockquote>
-<p>[Context]</p>
-</section>
-<section id="code-examples" class="level2">
-<h2 class="anchored" data-anchor-id="code-examples">Code Examples</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">R</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example code from episode</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> example_function():</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># R equivalent if applicable</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>example_function <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># code</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div>
-</div>
+<p>Jess reflects on how sports fans often overlook the role of chance, assuming outcomes are determined purely by skill until they start examining the mathematics more closely.</p>
+<hr>
+<blockquote class="blockquote">
+<p>“You want to have some level of uncertainty because if the best wins all the time then what’s the point?”</p>
+</blockquote>
+<p>The hosts discuss the paradox that some randomness makes sport exciting, comparing it to board games where complete skill dominance (like chess) might actually reduce enjoyment.</p>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<p>[Add any additional commentary, extended explanations, or connections to other episodes]</p>
+<p>This episode touches on a fundamental tension in sports analytics: the balance between skill and chance in determining outcomes. Rich’s analysis of NBA scoring patterns connects to broader research on competitive balance and what makes sporting contests compelling. The finding that 10% of games are decided by the final scoring event, despite 116 scoring opportunities per game, suggests that basketball’s structure may amplify the importance of clutch moments beyond what we might expect from a purely skill-based contest.</p>
+<p>The discussion also highlights the importance of transparency in sports statistics. Win probability models have become ubiquitous in sports broadcasting, yet their underlying assumptions and methodologies are rarely explained to viewers. This episode encourages a healthy scepticism about the precision implied by statistics like “99.7% loss probability” while acknowledging that such models can still provide useful frameworks for understanding game dynamics.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -322,8 +302,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>[Episode X: Related Topic](episode-00X.qmd)</li>
-<li>[Episode Y: Follow-up Topic](episode-00Y.qmd)</li>
+<li>Episode 2: Expected Goals in Football - Another exploration of probabilistic models in sport</li>
+<li>Future episodes may revisit the randomness vs.&nbsp;skill debate in other sports contexts</li>
 </ul>
 </div>
 </div>
