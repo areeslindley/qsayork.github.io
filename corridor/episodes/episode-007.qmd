@@ -1,6 +1,6 @@
 ---
 title: "Episode 7: Why Did Man City Sign Semenyo?"
-date: 2025-03-25
+date: 2025-02-24
 description: "Exploring how football clubs use data analytics to identify and sign players, with Manchester City's signing of Antoine Semenyo as a case study."
 categories: [Football, Player Recruitment, Data Analytics, Transfer Market]
 ---
@@ -8,8 +8,8 @@ categories: [Football, Player Recruitment, Data Analytics, Transfer Market]
 ::: {.grid}
 
 ::: {.g-col-6}
-**Published**: 25 March 2025  
-**Duration**: ~15:00  
+**Published**: 24 February 2026  
+**Duration**: 41:51  
 **YouTube**: [Watch here](https://www.youtube.com/watch?v=-v1nLR34YGA&t=303s)
 :::
 

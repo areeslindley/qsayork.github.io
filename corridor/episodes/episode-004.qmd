@@ -1,6 +1,6 @@
 ---
 title: "Episode 4: How Random is the NBA? Can Statistics Prove That Basketball is a Bad Sport?"
-date: 2026-03-25
+date: 2026-01-13
 description: "Rich attempts to statistically prove why basketball is a bad sport by analysing buzzer beaters, scoring frequency, and the role of randomness in determining game outcomes."
 categories: [Basketball, Randomness, NBA, Win Probability, Game Theory]
 ---
@@ -8,8 +8,8 @@ categories: [Basketball, Randomness, NBA, Win Probability, Game Theory]
 ::: {.grid}
 
 ::: {.g-col-6}
-**Published**: 25 March 2026  
-**Duration**: ~15:00  
+**Published**: 13 January 2026  
+**Duration**: 29:15  
 **YouTube**: [Watch here](https://www.youtube.com/watch?v=sBAKID4RidY&t=4s)
 :::
 

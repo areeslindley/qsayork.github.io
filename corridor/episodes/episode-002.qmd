@@ -1,6 +1,6 @@
 ---
 title: "Episode 2: Sports Personality of the Year - Can we use stats to rank sports?"
-date: 2024-12-20
+date: 2025-12-17
 description: "Jess quizzes Rich on Sports Personality of the Year history while exploring the data behind the UK's most prestigious sports award."
 categories: [Sports Awards, Data Visualisation, Voting Systems, Tennis, Formula One]
 ---
@@ -8,8 +8,8 @@ categories: [Sports Awards, Data Visualisation, Voting Systems, Tennis, Formula 
 ::: {.grid}
 
 ::: {.g-col-6}
-**Published**: December 2024  
-**Duration**: ~20:00  
+**Published**: 17 December 2025  
+**Duration**: 34:18  
 **YouTube**: [Watch here](https://www.youtube.com/watch?v=fQYV_adrnNI&t=3s)
 :::
 
