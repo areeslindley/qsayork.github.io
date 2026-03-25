@@ -2,6 +2,14 @@
 title: ""
 page-layout: full
 toc: false
+listing:
+  - id: latest-episodes
+    contents: "episodes/episode-*.qmd"
+    sort: "date desc"
+    type: grid
+    grid-columns: 3
+    max-items: 3
+    fields: [title, date, description]
 ---
 
 ```{=html}
@@ -161,18 +169,16 @@ toc: false
 <!-- Latest Episodes -->
 <p class="cou-section-title">Latest Episodes</p>
 
-<div class="episode-card">
-  <div class="episode-number">Episode 6</div>
-  <div class="episode-title">Can Maths Predict Curling Games?</div>
-  <div class="episode-meta">📅 10 Feb 2026 &nbsp;·&nbsp; ⏱ 31:16</div>
-  <div class="episode-desc">Curling is an incredible combination of skill and strategy. We use binomial regression to quantify accuracy and predict match outcomes — ahead of Milan Cortina 2026.</div>
-  <div class="episode-tags">
-    <span>Curling</span><span>Winter Olympics</span><span>Binomial Regression</span>
-  </div>
-  <a class="episode-link" href="episodes/episode-006.html">Read more →</a>
-  &nbsp;&nbsp;
-  <a class="episode-link" href="https://www.youtube.com/watch?v=H2lbiTPuMhc&t=698s" target="_blank">Watch on YouTube ↗</a>
-</div>
+```{=html}
+<p class="cou-section-title">Latest Episodes</p>
+```
+
+:::{#latest-episodes}
+:::
+```{=html}
+<br>
+<a class="episode-link" href="episodes/index.html">View all episodes →</a>
+```
 
 <div class="episode-card">
   <div class="episode-number">Episode 5</div>

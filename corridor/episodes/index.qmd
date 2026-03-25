@@ -4,7 +4,7 @@ page-layout: full
 toc: false
 listing:
   contents: "episode-*.qmd"
-  sort: "date asc"
+  sort: "date desc"
   type: grid
   grid-columns: 2
   fields: [title, date, description, categories]
