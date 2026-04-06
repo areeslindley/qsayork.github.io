@@ -28,7 +28,7 @@ website:
         text: Publications
       - href: news/index.qmd
         text: News
-      - href: corridor/index.html
+      - href: https://areeslindley.github.io/corridor-of-uncertainty/
         text: "Corridor of Uncertainty"
 
 format:
